@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    return df.loc[test]\n"}

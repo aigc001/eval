@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.hist(x, bins, alpha=0.5, label='x')\nplt.hist(y, bins, alpha=0.5, label='y')\nplt.legend()\nplt.show()\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the data into the desired bin size\nbin_data = data.reshape(-1, bin_size)\n\n# Find the maximum of each bin\nbin_data_max = np.max(bin_data, axis=1)\n\nprint(bin_data_max)\n"}

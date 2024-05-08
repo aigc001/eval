@@ -1,0 +1,1 @@
+{"trg_prediction": "\ncols = df.columns[2:4]\ndf[cols + '_scale'] = df[cols].groupby(df['Month']).apply(lambda x: scaler.fit_transform(x.values.reshape(-1, 1)))\n"}

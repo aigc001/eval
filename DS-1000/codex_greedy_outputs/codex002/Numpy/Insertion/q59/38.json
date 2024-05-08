@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the weighted t-statistic, p-value, and degrees of freedom\nt_statistic, p_value, df = scipy.stats.ttest_ind(a, b, equal_var=False, nan_policy='omit')\n\nprint(\"t-statistic:\", t_statistic)\nprint(\"p-value:\", p_value)\nprint(\"degrees of freedom:\", df)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Compute the L1 norm of each row\nl1 = np.abs(X).sum(axis=1)\n\n# Normalize each row by dividing it by its L1 norm\nX_normalized = X / l1[:, np.newaxis]\n\nprint(X_normalized)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef remove_after_last_underscore(s):\n    split_str = s.split('_')\n    if len(split_str) > 1:\n        return '_'.join(split_str[:-1])\n    else:\n        return s\n\ndf['SOURCE_NAME'] = df['SOURCE_NAME'].apply(remove_after_last_underscore)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Select only numeric columns\nnumeric_cols = df.select_dtypes(include=[np.number])\n\n# Remove outliers\nnumeric_cols = numeric_cols[(np.abs(stats.zscore(numeric_cols)) < 3).all(axis=1)]\n\n# Join back with original dataframe\ndf = pd.concat([numeric_cols, df.select_dtypes(exclude=[np.number])], axis=1)\n"}

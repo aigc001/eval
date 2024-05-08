@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(8, 8))\nplt.matshow(d)\n"}

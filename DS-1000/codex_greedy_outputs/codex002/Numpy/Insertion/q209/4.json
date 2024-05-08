@@ -1,0 +1,1 @@
+{"trg_prediction": "\nb = a.reshape(a.shape[0]//3, 3)\n"}

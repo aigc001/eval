@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new array with the same shape as the original array, filled with NaNs\nresult = np.full(a.shape, np.nan)\n\n# For each row, assign the values from the original array to the new array,\n# starting from the shifted index\nfor i, s in enumerate(shift):\n    result[i, s:] = a[i, :a.shape[1]-s]\n\nprint(result)\n"}

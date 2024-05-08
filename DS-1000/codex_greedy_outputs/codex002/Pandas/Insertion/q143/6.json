@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf['cumsum'] = df.groupby('id')['val'].cumsum()\n"}

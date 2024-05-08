@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the fourth moment (Fisher's definition)\nm4 = np.mean((a - np.mean(a))**4)\n\n# Calculate the square of the variance\nvar_squared = np.var(a)**2\n\n# Calculate the excess kurtosis\nkurt = m4/var_squared - 3\n\nprint(\"Excess kurtosis: \", kurt)\n"}

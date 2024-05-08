@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Create a new array with the desired size\n    new_a = np.zeros(a.size + 1, dtype=a.dtype)\n\n    # Copy the elements before the insert position\n    new_a[:pos] = a[:pos]\n\n    # Insert the new element\n    new_a[pos] = element\n\n    # Copy the elements after the insert position\n    new_a[pos+1:] = a[pos:]\n\n    return new_a\n"}

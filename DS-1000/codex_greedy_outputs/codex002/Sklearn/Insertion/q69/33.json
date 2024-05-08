@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Scale the data\nscaler = sklearn.preprocessing.StandardScaler()\nscaled_data = scaler.fit_transform(data)\n\n# Center the data\ncentered_data = scaled_data - np.mean(scaled_data, axis=0)\n"}

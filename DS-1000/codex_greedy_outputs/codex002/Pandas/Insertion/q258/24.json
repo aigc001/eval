@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Resample the data to 3 minutes and sum the values\ndf = df.set_index('Time').resample('3T').sum().reset_index()\n\n# Interpolate the missing values\ndf['Value'] = df['Value'].interpolate(method='time')\n\nprint(df)\n"}

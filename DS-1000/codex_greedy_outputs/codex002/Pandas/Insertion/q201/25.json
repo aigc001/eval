@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Split the row column into three new columns\ndf[['fips', 'medi', 'row']] = df['row'].str.split(expand=True)\n\n# Drop the original row column\ndf.drop(columns='row', inplace=True)\n\n# Rename the columns\ndf.columns = ['fips', 'medi', 'row']\n"}

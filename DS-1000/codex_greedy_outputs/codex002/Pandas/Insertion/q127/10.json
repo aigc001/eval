@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the number of rows to be selected\nn = int(len(df) * 0.2)\n\n# Select the rows randomly and set the Quantity to zero\naltered_rows = df.sample(n, random_state=0)\naltered_rows['Quantity'] = 0\n\n# Update the original DataFrame with the altered rows\ndf.update(altered_rows)\n\n# Print the updated DataFrame\nprint(df)\n"}

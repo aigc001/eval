@@ -1,0 +1,1 @@
+{"trg_prediction": "\nstart = pd.to_datetime(start)\nend = pd.to_datetime(end)\n\n# Create an array of equally spaced timestamps\ntimestamps = pd.date_range(start=start, end=end, periods=n)\n"}

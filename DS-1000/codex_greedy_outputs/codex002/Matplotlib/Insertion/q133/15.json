@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.fill_between(x, y - error, y + error, alpha=0.3)\nplt.plot(x, y, marker='o')\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Plot with error region')\nplt.grid(True)\nplt.show()\n"}

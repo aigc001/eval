@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the z-scores\nz_scores = stats.zscore(df, nan_policy='omit')\n\n# Create a new dataframe to hold the results\nresult = pd.DataFrame(index=df.index)\n\n# Add the data and z-score columns\nfor col in df.columns:\n    result[col] = df[col].round(3)\n    result[col + '_zscore'] = z_scores[:, df.columns.get_loc(col)].round(3)\n\nprint(result)\n"}

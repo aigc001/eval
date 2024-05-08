@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# delete the 3rd row\na = np.delete(a, 2, axis=0)\n"}

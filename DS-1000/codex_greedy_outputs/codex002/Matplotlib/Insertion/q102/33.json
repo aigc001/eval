@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.imshow(data, extent=(1, 5, 1, 4))\nplt.colorbar()\nplt.show()\n"}

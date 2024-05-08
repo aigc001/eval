@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef ecdf(x):\n    x = np.sort(x)\n    n = len(x)\n    y = np.arange(1, n + 1) / n\n    return x, y\n\nx, y = ecdf(grades)\n"}

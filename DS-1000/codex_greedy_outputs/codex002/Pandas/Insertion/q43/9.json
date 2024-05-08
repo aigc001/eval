@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.columns = df.columns.str.replace('Unnamed: 1', 'Concentration')\ndf.columns = df.columns.str.replace('Nanonose', 'Type')\ndf = df.dropna(how='all')\ndf = df.fillna(method='ffill')\n"}

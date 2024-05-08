@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Find the index of the maximum value in each row\n    max_values, max_indices = torch.max(softmax_output, dim=1)\n    return max_indices\n"}

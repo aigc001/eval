@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom scipy.stats import boxcox\ndata_transformed, lam = boxcox(data)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column 'Label' and initialize it with 1\ndf['Label'] = 1\n\n# Compute the difference between the current and the next row\ndiff = df['Close'] - df['Close'].shift(-1)\n\n# Update 'Label' based on the sign of the difference\ndf.loc[diff < 0, 'Label'] = 0\n\n# Handle the first row separately\ndf.loc[0, 'Label'] = 1\n"}

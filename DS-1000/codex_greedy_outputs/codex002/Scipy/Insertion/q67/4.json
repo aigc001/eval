@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the mean and standard deviation of each column\nmean = df.mean(axis=0)\nstd = df.std(axis=0)\n\n# Calculate the z-scores\nz_scores = (df - mean) / std\n\n# Print the z-scores\nprint(z_scores)\n"}

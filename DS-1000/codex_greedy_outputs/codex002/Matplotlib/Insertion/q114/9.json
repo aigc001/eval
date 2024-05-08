@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.bar(range(len(blue_bar)), blue_bar, color='b', label='Blue Bar')\nplt.bar(range(len(orange_bar)), orange_bar, color='orange', label='Orange Bar')\n\n# Add labels and title\nplt.xlabel('Index')\nplt.ylabel('Value')\nplt.title('Side-by-side Bar Plot')\n\n# Add a legend\nplt.legend()\n\n# Show the plot\nplt.show()\n"}

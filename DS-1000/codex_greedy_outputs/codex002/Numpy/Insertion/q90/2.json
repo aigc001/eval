@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the indexes of the sorted array in decreasing order\nresult = np.argsort(-a)\n"}

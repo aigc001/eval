@@ -1,0 +1,1 @@
+{"trg_prediction": "\nx = torch.rand(4,4)\nx_numpy = x.numpy()\npx = pd.DataFrame(x_numpy)\n"}

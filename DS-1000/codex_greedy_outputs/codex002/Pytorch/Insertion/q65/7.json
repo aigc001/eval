@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a tensor with zeros\nnew = torch.zeros(t.size(0)+2, t.size(1)+2)\n\n# Assign the original tensor to the center of the new tensor\nnew[1:-1, 1:-1] = t\n\n# Print the new tensor\nprint(new)\n"}

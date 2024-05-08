@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Deleting particular days\ndf = df[~df.index.isin(['2020-02-17', '2020-02-18'])]\n\n# Getting the day of the week\ndf['Day'] = df.index.day_name()\n\n# Printing the first 5 rows\nprint(df.head())\n"}

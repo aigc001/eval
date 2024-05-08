@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.grid(True, which='both', axis='both')\nplt.xticks([1, 2])\nplt.yticks([3, 4])\n"}

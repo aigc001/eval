@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the steps\nsteps = clf.named_steps\n\n# Insert a new step\nclf.steps.insert(1, ('poly', PolynomialFeatures()))\n\n# Update the named steps\nclf._named_steps = dict(estimators)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use the argmax function which returns the indices of the maximum value\n# The argmax function returns a tuple of indices\n# The first element of the tuple corresponds to the row index\n# The second element corresponds to the column index\nrow_index, col_index = np.unravel_index(a.argmax(), a.shape)\nprint(row_index, col_index)\n"}

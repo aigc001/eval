@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Drop the NaN values\ndf = df.dropna(how='all')\n\n# Create a new column that concatenates all the rows\ndf['keywords_all'] = df.apply(lambda row: ','.join(row.dropna().astype(str)), axis=1)\n\nprint(df)\n"}

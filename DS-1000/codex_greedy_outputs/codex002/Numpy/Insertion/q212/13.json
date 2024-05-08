@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use numpy's advanced indexing to select the elements in a according to b\ndesired = a[np.arange(a.shape[0])[:, np.newaxis, np.newaxis],\n             np.arange(a.shape[1])[np.newaxis, :, np.newaxis],\n             b]\n"}

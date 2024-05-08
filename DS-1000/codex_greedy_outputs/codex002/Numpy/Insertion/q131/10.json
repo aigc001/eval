@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Pad the array with a period of itself\na_padded = np.pad(a, (0, len(a)), mode='wrap')\n\n# Perform the correlation\ncorrelation = np.correlate(a_padded, b, mode='valid')\n\nprint(correlation)\n"}

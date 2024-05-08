@@ -1,0 +1,1 @@
+{"trg_prediction": "xticklabels = ax.get_xticklabels()\nxticklabels[1].set_text(\"second\")\nax.set_xticklabels(xticklabels)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the zoom factors\nzoom_x = shape[0] / x.shape[0]\nzoom_y = shape[1] / x.shape[1]\n\n# Apply the zoom\nresized = scipy.ndimage.zoom(x, (zoom_x, zoom_y), order=1)\n\n# The result will be larger than the target shape, so we need to crop it\nresized = resized[:shape[0], :shape[1]]\n"}

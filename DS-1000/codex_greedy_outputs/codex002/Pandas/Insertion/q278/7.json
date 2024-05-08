@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the dates to datetime\ndates_to_remove = ['2020-02-17', '2020-02-18']\ndates_to_remove = pd.to_datetime(dates_to_remove)\n\n# Filter the dataframe\ndf = df[~df.index.date.isin(dates_to_remove)]\n"}

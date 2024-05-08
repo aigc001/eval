@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use np.isnan() to create a boolean mask of rows that contain NaN\nmask = np.isnan(a).any(axis=1)\n\n# Use the mask to filter out the rows\na = a[~mask]\n"}

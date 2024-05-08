@@ -1,0 +1,1 @@
+{"trg_prediction": "\ninterp = scipy.interpolate.LinearNDInterpolator(points, V)\nresult = interp(request)\nprint(result)\n"}

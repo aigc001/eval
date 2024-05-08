@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate z-scores\nzscores = stats.zscore(df)\n\n# Create a new DataFrame to hold the results\nresult = pd.DataFrame(index=df.index, columns=df.columns)\n\n# Add the original data and the z-scores to the new DataFrame\nresult['data'] = df\nresult['zscore'] = zscores\n\n# Print the result\nprint(result)\n"}

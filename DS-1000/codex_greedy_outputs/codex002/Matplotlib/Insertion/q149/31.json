@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(12, 6))\n\nplt.subplot(1, 3, 1)\nplt.plot(t, a, 'r')\nplt.title('Sin(t)')\n\nplt.subplot(1, 3, 2)\nplt.plot(t, b, 'g')\nplt.title('Cos(t)')\n\nplt.subplot(1, 3, 3)\nplt.plot(t, c, 'b')\nplt.title('Sin(t) + Cos(t)')\n\nplt.tight_layout()\nplt.show()\n"}

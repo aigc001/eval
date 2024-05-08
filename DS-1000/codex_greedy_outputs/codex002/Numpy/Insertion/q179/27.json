@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # replace inf with nan\n    a[np.isinf(a)] = np.nan\n    # calculate mean\n    mean = np.nanmean(a)\n    return mean\n"}

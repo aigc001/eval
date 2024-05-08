@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# convert the sparse column vector to a dense numpy array\ndense_col = col.toarray().flatten()\n\n# get the median\nmedian = np.median(dense_col)\n\n# get the mode\nmode = np.bincount(dense_col.astype(int)).argmax()\n\nprint(\"Median: \", median)\nprint(\"Mode: \", mode)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column 'Family' based on the conditions\ndf['Family'] = ['Has Family' if (row['SibSp'] > 0 or row['Parch'] > 0) else 'No Family' for index, row in df.iterrows()]\n\n# Group by 'Family' and take the mean of 'Survived'\nmean_df = df.groupby('Family')['Survived'].mean()\n\nprint(mean_df)\n"}

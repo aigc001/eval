@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape ids to match the shape of x\nids = ids.unsqueeze(2).expand(-1,-1,x.size(2))\n\n# Gather the elements\nresult = x.gather(1, ids)\n\n# Squeeze the result to get the desired shape\nresult = result.squeeze(1)\n"}

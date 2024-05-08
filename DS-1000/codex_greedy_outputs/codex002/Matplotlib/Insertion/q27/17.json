@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.xlabel(\"X\")\nplt.locator_params(axis='x', nbins=5)\nplt.gca().xaxis.set_ticks_position('bottom')\nplt.gca().yaxis.set_ticks_position('left')\n"}

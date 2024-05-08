@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use the np.maximum function which takes two arrays and returns an array of the element-wise maxima\nresult = np.maximum(a, np.maximum(b, c))\nprint(result)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# We first remove the zero values\na = a[a != 0]\n\n# Then we remove the adjacent duplicates\na = a[np.concatenate(([True], np.diff(a[:, 0]) != 0))]\n\n"}

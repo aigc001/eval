@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# create an array of NaNs with the same shape as the original array\nshifted_a = np.full_like(a, np.nan)\n\n# fill the shifted array with the shifted values\nshifted_a[shift:] = a[:-shift]\n\nprint(shifted_a)\n"}

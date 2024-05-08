@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(10, 6))\nfor i, ls in enumerate([\"-\", \"--\", \"-.\", \":\"], 1):\n    plt.plot(x, np.random.randn(10) + i, label=f\"Line {i} - Style: {ls}\", linestyle=ls)\n\nplt.title(\"Line Styles\")\nplt.xlabel(\"X\")\nplt.ylabel(\"Y\")\nplt.legend()\nplt.show()\n"}

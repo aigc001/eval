@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the mse values\nmse_values = df['mse'].values\n\n# Reshape the mse values to a 2D array\nmse_values = mse_values.reshape(-1, 1)\n\n# Fit the KMeans model\nkmeans = KMeans(n_clusters=2).fit(mse_values)\n\n# Get the labels\nlabels = kmeans.labels_\n\n# Get the centroids\ncentroids = kmeans.cluster_centers_\n\n# Print the centroids\nprint(centroids)\n"}

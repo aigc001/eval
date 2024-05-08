@@ -1,0 +1,1 @@
+{"trg_prediction": "\n#Training the model\nhistory = model.fit(x=Xtrain,y=ytrain,validation_data=(Xtest,ytest),batch_size=32,epochs=epochs)\n\n#Save the model in \"export/1\"\ntf.keras.models.save_model(model, \"export/1\")\n"}

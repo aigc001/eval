@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y, label='cosine curve')\nplt.legend(title='xyz', title_fontsize=20)\n"}

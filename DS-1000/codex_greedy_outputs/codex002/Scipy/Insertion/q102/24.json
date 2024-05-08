@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom scipy.optimize import fminbound\npopt = np.array([fminbound(e, pmin[i], pmax[i], args=(x,y[i])) for i in range(len(pmin))])\n"}

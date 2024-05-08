@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a dataframe from the numpy arrays\ndf = pd.DataFrame({'lat': lat.flatten(), 'lon': lon.flatten(), 'val': val.flatten()})\n\n# Add a column with the maximum value of each row\ndf['maximum'] = df[['lat', 'lon', 'val']].max(axis=1)\n\nprint(df)\n"}

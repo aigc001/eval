@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Check if all columns are equal\nresult = np.all(a[:, 0] == a[:, 1:], axis=0)\n"}

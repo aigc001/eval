@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a copy of the dataframe to avoid modifying the original one\ndf_copy = df.copy()\n\n# Iterate over the rows and columns\nfor i in range(df_copy.shape[0]):\n    for j in range(df_copy.shape[1]):\n        # If the value is equal to 2, replace it with 0\n        if df_copy.iloc[i, j] == 2:\n            df_copy.iloc[i, j] = 0\n"}

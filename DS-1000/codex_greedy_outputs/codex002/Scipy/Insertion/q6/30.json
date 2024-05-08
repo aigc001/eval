@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the left-tailed p-values\np_values = scipy.stats.norm.cdf(z_scores)\n"}

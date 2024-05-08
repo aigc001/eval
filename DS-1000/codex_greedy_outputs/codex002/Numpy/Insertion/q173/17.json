@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the arrays to be 1D\nlat = lat.reshape(-1)\nlon = lon.reshape(-1)\nval = val.reshape(-1)\n\n# Create a DataFrame from the reshaped arrays\ndf = pd.DataFrame({'lat': lat, 'lon': lon, 'val': val})\n"}

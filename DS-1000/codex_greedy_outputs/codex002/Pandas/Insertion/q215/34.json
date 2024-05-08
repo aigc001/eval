@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmin_date = df.index.min()\nmax_date = df.index.max()\n\nprint(\"Min Date: \", min_date)\nprint(\"Max Date: \", max_date)\n"}

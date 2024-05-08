@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column 'group' which groups every 3 rows together\ndf['group'] = df.index // 3\n\n# Group by this new column and take the mean of 'col1'\ndf_binned = df.groupby('group').mean().reset_index(drop=True)\n\n# Only keep the 'col1' column\ndf_binned = df_binned[['col1']]\n"}

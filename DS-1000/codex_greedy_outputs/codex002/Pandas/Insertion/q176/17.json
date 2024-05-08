@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Select rows where A is a string\ndf_str = df[df['A'].apply(lambda x: isinstance(x, str))]\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# First, we need to reverse the array\na = a[::-1]\n# Then, we calculate the rankdata\nrank = rankdata(a)\n# Finally, we subtract the rank from the length of the array plus one\nresult = (len(a)+1) - rank.astype(int)\nprint(result)\n"}

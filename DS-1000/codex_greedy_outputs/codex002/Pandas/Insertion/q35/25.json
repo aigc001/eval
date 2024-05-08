@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Define the columns to be aggregated\nvalue_cols = [col for col in df.columns if col.startswith('val') and col.endswith('2')]\n\n# Define the aggregation functions\nagg_funcs = {col: 'sum' for col in value_cols}\nagg_funcs['group_color'] = 'first'\n\n# Perform the aggregation\nresult = df.groupby('group').agg(agg_funcs)\n\nprint(result)\n"}

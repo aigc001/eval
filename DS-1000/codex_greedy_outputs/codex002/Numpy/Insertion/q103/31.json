@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Using eval function to evaluate the string as a python expression\n# and then converting it to numpy array\na = np.array(eval(string))\n"}

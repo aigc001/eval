@@ -1,0 +1,1 @@
+{"trg_prediction": "\nresult = []\nfor i in range(X.shape[0]):\n    for j in range(X.shape[1]):\n        result.append(X[i, j])\n"}

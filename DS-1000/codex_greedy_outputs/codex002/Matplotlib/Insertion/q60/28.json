@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y, label='Line')\nplt.xlabel('X')\nplt.xlim(0, 10)\nplt.ylim(0, 10)\nplt.xticks(np.arange(0, 11, 1))\nplt.yticks(np.arange(0, 11, 1))\nplt.grid(True)\nplt.legend()\nplt.show()\n"}

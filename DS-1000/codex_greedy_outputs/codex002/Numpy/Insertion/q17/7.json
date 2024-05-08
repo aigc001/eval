@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Set the seed for the random number generator\nnp.random.seed(0)\n\n# Generate the random array\nr = np.random.randint(3, size=(100, 2000)) - 1\n\n# Save the array\nnp.save('r.npy', r)\n\n# Load the saved array\nr_loaded = np.load('r.npy')\n\n# Check if the loaded array is the same as the original\nprint(np.array_equal(r, r_loaded))\n"}

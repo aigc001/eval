@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the shape of the array\nshape = a.shape\n# Get the diagonal indices starting from the top right\ndiagonal = np.diag_indices(shape[0])\n# Flip the indices\nflipped_diagonal = (diagonal[0][::-1], diagonal[1][::-1])\n# Use the flipped indices to get the values from the array\nvalues = a[flipped_diagonal]\n"}

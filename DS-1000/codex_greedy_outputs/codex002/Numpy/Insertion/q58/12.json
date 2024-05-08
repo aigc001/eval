@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the shape of the array\nshape = a.shape\n\n# The first element of the shape tuple is the number of rows\nnum_rows = shape[0]\n\n# You can then use this in a for loop\nfor i in range(num_rows):\n    # Do something with row i\n    pass\n"}

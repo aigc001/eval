@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Mask the padded values\nmask = tf.cast(tf.not_equal(x, 0), tf.float32)\n\n# Calculate the mean\nmean = tf.reduce_sum(x * mask, axis=-1) / tf.reduce_sum(mask, axis=-1)\n\n# Calculate the variance\nvariance = tf.reduce_sum((x - mean[:, :, :, tf.newaxis]) ** 2 * mask, axis=-1) / tf.reduce_sum(mask, axis=-1)\n\n# Print the result\nprint(variance.numpy())\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a boolean mask where True means the row is equal in both dataframes\nmask = (df1[columns_check_list] == df2[columns_check_list]).all(axis=1)\n\n# Use the mask to filter the dataframes\ndf1_filtered = df1[mask]\ndf2_filtered = df2[mask]\n\n# Print the filtered dataframes\nprint(df1_filtered)\nprint(df2_filtered)\n"}

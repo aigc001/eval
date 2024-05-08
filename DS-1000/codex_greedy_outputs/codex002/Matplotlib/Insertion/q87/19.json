@@ -1,0 +1,1 @@
+{"trg_prediction": "fig, axs = plt.subplots(2, 1, sharey=False)\n\nsns.regplot(x=\"bill_length_mm\", y=\"bill_depth_mm\", data=df, ax=axs[0])\nsns.regplot(x=\"bill_length_mm\", y=\"flipper_length_mm\", data=df, ax=axs[1])\n\nplt.show()\n"}

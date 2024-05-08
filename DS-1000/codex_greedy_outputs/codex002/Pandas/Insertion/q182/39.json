@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a series from the dictionary\ns = pd.Series(dict)\n\n# Map the values in 'Member' column to the series index\ndf['Date'] = df['Member'].map(s)\n\n# Fill NaN values with a default value\ndf['Date'] = df['Date'].fillna('17/8/1926')\n"}

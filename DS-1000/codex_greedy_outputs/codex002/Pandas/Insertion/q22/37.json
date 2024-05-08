@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef binary_to_categorical(df):\n    df['category'] = df.apply(lambda row: [col for col in df.columns if row[col] == 1], axis=1)\n    return df\n\ndf = binary_to_categorical(df)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Using dictionary comprehension and pandas assign function to add new columns\ndf = df.assign(**{f\"inv_{col}\": 1/df[col] for col in df.columns})\n"}

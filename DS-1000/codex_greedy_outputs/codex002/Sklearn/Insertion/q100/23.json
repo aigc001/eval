@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the string data to numerical data\nX = np.array(X)\nX[:, 1] = X[:, 1].astype(float)\n\n# Fit the model\nclf.fit(X, ['2', '3'])\n"}

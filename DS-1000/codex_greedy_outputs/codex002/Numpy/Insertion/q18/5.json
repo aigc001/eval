@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the maximum value in the array\nmax_value = np.max(a)\n\n# Find the position of the maximum value\nmax_position = np.unravel_index(np.argmax(a), a.shape)\n\nprint(\"Maximum value:\", max_value)\nprint(\"Position of maximum value (row, column):\", max_position)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Fit the pipeline\npipe.fit(data)\n\n# Get the TF-IDF matrix\ntfidf_matrix = pipe.named_steps[\"tf_idf\"].transform(data)\n\n# Get the NMF matrix\nnmf_matrix = pipe.named_steps[\"nmf\"].transform(tfidf_matrix)\n"}

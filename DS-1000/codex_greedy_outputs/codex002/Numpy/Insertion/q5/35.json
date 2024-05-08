@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the maximum value in the array\nmax_val = np.max(a)\n\n# Create an empty 2D array with the same length as a and width as max_val+1\nb = np.zeros((len(a), max_val + 1))\n\n# For each value in a, set the corresponding value in b to 1\nb[np.arange(len(a)), a] = 1\n"}

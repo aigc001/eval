@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef compare_rows(df, i, j):\n    diffs = []\n    for col in df.columns:\n        if df.iloc[i][col] != df.iloc[j][col]:\n            if pd.isnull(df.iloc[i][col]) and pd.isnull(df.iloc[j][col]):\n                continue\n            diffs.append((df.iloc[i][col], df.iloc[j][col]))\n    return diffs\n\nprint(compare_rows(df, 0, 8))\n"}

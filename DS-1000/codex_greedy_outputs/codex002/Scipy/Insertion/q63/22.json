@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a NxN identity matrix\ndct_matrix = np.eye(N)\n\n# Apply the DCT to each column of the identity matrix\ndct_matrix = sf.dct(dct_matrix, norm='ortho', axis=0)\n\n# Apply the DCT to each row of the resulting matrix\ndct_matrix = sf.dct(dct_matrix, norm='ortho', axis=1)\n"}

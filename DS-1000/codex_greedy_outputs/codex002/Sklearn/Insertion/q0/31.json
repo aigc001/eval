@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a DataFrame\ndf = pd.DataFrame(data.data, columns=data.feature_names)\n\n# Add the target column\ndf['target'] = np.array(data.target)\n"}

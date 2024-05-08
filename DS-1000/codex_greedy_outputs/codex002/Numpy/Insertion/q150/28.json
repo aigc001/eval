@@ -1,0 +1,1 @@
+{"trg_prediction": "\nif number in a:\n    print(True)\nelse:\n    print(False)\n"}

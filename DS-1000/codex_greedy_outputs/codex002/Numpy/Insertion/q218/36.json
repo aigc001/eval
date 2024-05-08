@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the rows and columns that are all zeros\nrows_zeros = np.all(im == 0, axis=1)\ncols_zeros = np.all(im == 0, axis=0)\n\n# Remove the rows and columns that are all zeros\nim = im[~rows_zeros, :]\nim = im[:, ~cols_zeros]\n\n# Print the result\nprint(im)\n"}

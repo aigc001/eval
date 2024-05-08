@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a function to apply to each group\ndef sum_with_nan(group):\n    return group['v'].sum(skipna=False)\n\n# Apply the function to each group\nresult = df.groupby('l').apply(sum_with_nan)\n\n# Reset the index to get the desired output\nresult = result.reset_index()\n\n# Rename the columns\nresult.columns = ['l', 'v']\n\nprint(result)\n"}

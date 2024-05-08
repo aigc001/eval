@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# convert degree to radian\nradian = np.radians(degree)\n\n# compute sine value\nsin_value = np.sin(radian)\n\nprint(sin_value)\n"}

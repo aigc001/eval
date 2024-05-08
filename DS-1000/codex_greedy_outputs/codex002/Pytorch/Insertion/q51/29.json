@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    count = (A == B).sum()\n    return count\n"}

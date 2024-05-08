@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a function to replace values based on value_counts\ndef replace_values(df):\n    for col in df.columns:\n        counts = df[col].value_counts()\n        df[col] = df[col].apply(lambda x: 'other' if counts[x] < 3 else x)\n    return df\n\n# Apply the function to the dataframe\nresult = replace_values(df)\n"}

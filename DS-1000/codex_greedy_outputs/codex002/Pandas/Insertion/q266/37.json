@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef find_diff_columns(df, row1, row2):\n    diff_cols = []\n    for col in df.columns:\n        if df.iloc[row1][col] != df.iloc[row2][col]:\n            diff_cols.append(col)\n    return diff_cols\n\n\ndiff_cols = find_diff_columns(df, 0, 8)\nprint(diff_cols)\n"}

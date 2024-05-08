@@ -1,0 +1,5 @@
+plt.figure()
+plt.plot(x, color='red')
+plt.plot(y, color='green')
+plt.plot(z, color='blue')
+plt.show()

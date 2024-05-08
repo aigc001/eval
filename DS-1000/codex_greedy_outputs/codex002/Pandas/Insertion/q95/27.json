@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf = pd.melt(df, id_vars=['Country', 'Variable'], var_name='year')\ndf['year'] = df['year'].astype(int)\ndf = df.sort_values(['Country', 'Variable', 'year']).reset_index(drop=True)\n"}

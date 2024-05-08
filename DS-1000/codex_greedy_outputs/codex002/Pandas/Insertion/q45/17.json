@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a mask of NaN values\nmask = df.isnull()\n\n# Use the mask to create a new DataFrame where NaNs are replaced with the last non-NaN value\ndf_new = df.where(~mask, df.ffill())\n"}

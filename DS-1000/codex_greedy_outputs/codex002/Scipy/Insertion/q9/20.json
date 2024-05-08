@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndist = stats.lognorm(scale=np.exp(mu), s=stddev)\ndist.cdf(x)\n"}

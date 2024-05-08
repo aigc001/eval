@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Method 1: Using numpy.array_equal\ndef check_equal_arrays(a):\n    return all(np.array_equal(a[i], a[i+1]) for i in range(len(a)-1))\n\n# Method 2: Using numpy.all\ndef check_equal_arrays(a):\n    return all(np.all(a[i] == a[i+1]) for i in range(len(a)-1))\n\n# Testing\nprint(check_equal_arrays(a))  # Should return True\n"}

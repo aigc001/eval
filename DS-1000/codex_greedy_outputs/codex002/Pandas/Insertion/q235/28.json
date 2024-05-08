@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmerged_text = ', '.join(df['text'].values)\nmerged_df = pd.DataFrame({'text': [merged_text]})\n"}

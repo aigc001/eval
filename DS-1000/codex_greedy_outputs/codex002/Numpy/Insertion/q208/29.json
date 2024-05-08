@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the padding\npadding = ((0, shape[0] - a.shape[0]), (0, shape[1] - a.shape[1]))\n\n# Apply the padding\na = np.pad(a, padding, mode='constant')\n"}

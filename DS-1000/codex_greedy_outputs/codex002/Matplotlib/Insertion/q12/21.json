@@ -1,0 +1,1 @@
+{"trg_prediction": "g = seaborn.relplot(x=\"Height (cm)\", y=\"Weight (kg)\", hue=\"Gender\", data=df)\ng.set_axis_labels(\"Height (cm)\", \"Weight (kg)\")\ng.set_titles(\"{col_name}\")\nplt.show()\n"}

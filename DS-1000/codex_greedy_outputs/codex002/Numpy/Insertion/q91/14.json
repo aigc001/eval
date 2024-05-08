@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the indexes of the sorted array\nindexes = np.argsort(a)\n# Reverse the indexes to get the indexes of the elements in increasing order\nresult = indexes[::-1]\n"}

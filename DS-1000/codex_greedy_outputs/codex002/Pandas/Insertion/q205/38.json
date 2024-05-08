@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Replace 0 with NaN\ndf.replace(0, np.nan, inplace=True)\n\n# Calculate the average from end to head for each row\ndf.iloc[:, 1:] = df.iloc[:, 1:].apply(lambda x: x[::-1].cumsum() / (x[::-1].notna().cumsum()), axis=1)\n\n# Replace NaN with 0\ndf.fillna(0, inplace=True)\n"}

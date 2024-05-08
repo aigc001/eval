@@ -1,0 +1,1 @@
+{"trg_prediction": "\npad_width = length - len(A)\nif pad_width > 0:\n    A = np.pad(A, (0, pad_width), 'constant')\n"}

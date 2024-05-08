@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf = pd.DataFrame(data)\ndf[name] = df.groupby('D').Q.apply(np.cumsum)\n"}

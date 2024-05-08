@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef expand_list(row):\n    while len(row) < 3:\n        row.append(None)\n    return row\n\ndf['codes'] = df['codes'].apply(expand_list)\n\ndf[['code_1', 'code_2', 'code_3']] = pd.DataFrame(df['codes'].tolist(), index=df.index)\n"}

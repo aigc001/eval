@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef elementwise_function(x, y):\n    return (x + y)\n\nz = elementwise_function(np.array(x), np.array(y))\n"}

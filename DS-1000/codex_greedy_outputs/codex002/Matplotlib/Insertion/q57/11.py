@@ -1,0 +1,8 @@
+plt.bar(df["celltype"], df["s1"], label="s1")
+plt.bar(df["celltype"], df["s2"], label="s2")
+plt.xlabel("Cell Type")
+plt.ylabel("Value")
+plt.title("Bar Plot of Cell Types")
+plt.xticks(rotation=45, ha="right")
+plt.legend()
+plt.show()

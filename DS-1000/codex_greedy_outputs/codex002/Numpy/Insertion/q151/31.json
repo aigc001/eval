@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use numpy's in1d function to check for each element of B in A\n# This will return a boolean array where True signifies that the element of B is in A\nmask = np.in1d(A, B)\n\n# Use the mask to remove the elements from A\nC = A[~mask]\n"}

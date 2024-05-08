@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Set the time column as the index\ndf.set_index('Time', inplace=True)\n\n# Resample the data at a 2 minute frequency and take the mean\ndf = df.resample('2T').mean()\n\n# Round the time column to the nearest minute\ndf.index = df.index.round('min')\n\n# Reset the index to convert the time column back to a regular column\ndf.reset_index(inplace=True)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Delete 'dim_svm'\nestimators = [est for est in clf.steps if est[0] != 'dim_svm']\nclf = Pipeline(estimators)\n"}

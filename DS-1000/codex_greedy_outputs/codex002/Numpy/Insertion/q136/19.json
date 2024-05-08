@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the integers to binary and then to a numpy array\nbinary_arrays = np.unpackbits(np.uint8(a.reshape(-1, 1)), axis=1)[:, -m:]\n\n# Compute the exclusive or of all the rows\nxor_result = np.bitwise_xor.reduce(binary_arrays, axis=0)\n\nprint(binary_arrays)\nprint(xor_result)\n"}

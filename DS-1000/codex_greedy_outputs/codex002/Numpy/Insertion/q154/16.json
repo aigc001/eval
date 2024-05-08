@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# First, we need to get the rankdata for the array\nrank = rankdata(a)\n\n# Then, we subtract the rank from the length of the array plus one\n# to get the highest rank for the smallest value and vice versa\nrank = (len(a)+1) - rank\n\n# Finally, we convert the rank to integer\nrank = rank.astype(int)\n\nprint(rank)\n"}

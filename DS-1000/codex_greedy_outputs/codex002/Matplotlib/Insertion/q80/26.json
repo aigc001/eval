@@ -1,0 +1,1 @@
+{"trg_prediction": "ax.plot(x, y)\nax.set_xticks(x)\nax.set_yticks(y)\nax.set_xticklabels(x+1)\nax.set_yticklabels(y+1)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# replace NaNs with zero\ns1[np.isnan(s1)] = 0\ns2[np.isnan(s2)] = 0\n\n# compare the two arrays\ndiff = np.abs(s1 - s2)\n\n# find the indices where the difference is larger than the machine precision\nindices = np.where(diff > np.finfo(float).eps)\n\n# print the number of different elements\nprint(indices[0].shape[0])\n"}

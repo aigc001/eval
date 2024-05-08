@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.imshow(H, cmap='hot')\nplt.colorbar()\nplt.show()\n"}

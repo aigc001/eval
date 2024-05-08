@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndistances = scipy.spatial.distance.cdist(centroids, data, 'euclidean')\nresult = np.argmin(distances, axis=1)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# replace 'null' with actual NaN\ndf = df.replace('null', pd.np.nan)\n\n# count NaNs in each column\ncount_null = df.isnull().sum()\n\nprint(count_null)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(10, 5))\n\nplt.subplot(1, 2, 1)\nplt.plot(x, y1, color='blue', label='sin(x)')\nplt.xlabel('x')\nplt.ylabel('y', color='blue')\nplt.legend()\n\nplt.subplot(1, 2, 2)\nplt.plot(x, y2, color='red', label='cos(x)')\nplt.xlabel('x')\nplt.ylabel('y', color='red')\nplt.legend()\n\nplt.tight_layout()\nplt.show()\n"}

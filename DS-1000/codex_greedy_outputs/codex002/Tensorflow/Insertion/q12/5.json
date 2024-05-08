@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    max_length = 8\n    mask = []\n    for length in lengths:\n        mask.append([1]*length + [0]*(max_length - length))\n    return tf.convert_to_tensor(mask)\n"}

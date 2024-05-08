@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfor product_range in products:\n    df.loc[df['product'].between(product_range[0], product_range[1]), 'score'] *= 10\n"}

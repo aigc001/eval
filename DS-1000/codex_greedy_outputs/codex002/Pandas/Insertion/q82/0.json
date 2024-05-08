@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a temporary column to hold the forward filled values\ndf['B'] = df['A'].ffill()\n\n# Replace the original column with the temporary column\ndf['A'] = df['B']\n\n# Drop the temporary column\ndf.drop('B', axis=1, inplace=True)\n"}

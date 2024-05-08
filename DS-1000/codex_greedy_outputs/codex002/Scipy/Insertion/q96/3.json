@@ -1,0 +1,1 @@
+{"trg_prediction": "\nresult = []\nfor x, a in zip(xdata, adata):\n    root = fsolve(eqn, x0=0.5, args=(x, a))\n    root.sort()\n    result.append(root)\n"}

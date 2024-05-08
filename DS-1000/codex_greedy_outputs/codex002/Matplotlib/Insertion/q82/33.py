@@ -1,0 +1,8 @@
+plt.loglog(x, y, label='y=x')
+plt.grid(True)
+plt.xticks([1, 10, 100])
+plt.yticks([1, 10, 100])
+plt.gca().xaxis.set_major_formatter(plt.ScalarFormatter())
+plt.gca().yaxis.set_major_formatter(plt.ScalarFormatter())
+plt.legend()
+plt.show()

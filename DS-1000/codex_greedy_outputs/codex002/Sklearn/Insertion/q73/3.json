@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom sklearn.preprocessing import PowerTransformer\n\n# Initialize the PowerTransformer\npt = PowerTransformer(method='yeo-johnson')\n\n# Fit and transform the data\ndata_transformed = pt.fit_transform(data)\n\n# Output the transformed data\nprint(data_transformed)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Replace 'null' with actual None\ndf = df.replace('null', None)\n\n# Get the value counts for each column\nvalue_counts = df.apply(lambda x: x.value_counts())\n\n# Replace None with 'null' again\nvalue_counts = value_counts.replace(None, 'null')\n\nprint(value_counts)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    max_len = max(lens)\n    mask = np.zeros((len(lens), max_len))\n    for i, l in enumerate(lens):\n        mask[i, :l] = 1\n    return torch.LongTensor(mask)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Group by 'cokey' and sort each group by 'A'\ngrouped = df.groupby('cokey').apply(lambda x: x.sort('A'))\n\n# Reset the index\ngrouped.reset_index(inplace=True, drop=True)\n\n# Print the result\nprint(grouped)\n"}

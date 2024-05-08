@@ -1,0 +1,1 @@
+{"trg_prediction": "\nresult = df.sort_values(['user', 'time']).groupby('user').apply(lambda x: x[['amount', 'time']].values.tolist()).reset_index()\nresult.columns = ['user', 'amount-time-tuple']\n"}

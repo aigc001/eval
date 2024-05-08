@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# replace &AMP; with '&' in all columns\ndf = df.replace('&AMP;', '&', regex=True)\n\n# evaluate expression in column Title\ndf['Title'] = df['Title'].str.replace('(\\d) & (\\d)', lambda m: str(int(m.group(1)) & int(m.group(2))), regex=True)\n"}

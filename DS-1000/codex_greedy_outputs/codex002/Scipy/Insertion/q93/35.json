@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndistances = scipy.spatial.distance.cdist(centroids, data)\nclosest_indices = np.argmin(distances, axis=1)\nresult = data[closest_indices]\n"}

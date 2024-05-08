@@ -1,0 +1,1 @@
+{"trg_prediction": "fig, axs = plt.subplots(1, 2, gridspec_kw={'width_ratios': [3, 1]})\n\n# Plot the data on the first subplot\naxs[0].plot(x, y)\naxs[0].set_title('First Plot')\n\n# Plot the data on the second subplot\naxs[1].plot(x, y)\naxs[1].set_title('Second Plot')\n\n# Adjust the spacing between the subplots\nplt.tight_layout()\n\n# Show the plot\nplt.show()\n"}

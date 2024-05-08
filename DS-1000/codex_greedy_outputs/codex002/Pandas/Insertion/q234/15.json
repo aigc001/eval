@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf['text'] = df['text'].apply(lambda x: ', '.join(df['text'].tolist()))\ndf = df.groupby(level=0).first()\n"}

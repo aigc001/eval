@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.query(\"Category in @filter_list\")\n"}

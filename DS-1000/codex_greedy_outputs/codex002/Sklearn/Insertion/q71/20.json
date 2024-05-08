@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom scipy.stats import boxcox\n\n# Apply Box-Cox transformation\ntransformed_data, lam = boxcox(data)\n\n# If lambda is less than 0.01, we assume that the data is approximately normal\nif lam < 0.01:\n    print(\"Data is approximately normal.\")\nelse:\n    print(\"Data is not normal, lambda: \", lam)\n"}

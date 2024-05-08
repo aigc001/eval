@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.xticks(np.arange(0, 10, 1))\nplt.yticks(np.arange(0, 10, 1))\nplt.plot(x, y)\nplt.show()\n"}

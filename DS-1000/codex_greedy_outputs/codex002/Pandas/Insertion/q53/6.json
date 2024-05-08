@@ -1,0 +1,1 @@
+{"trg_prediction": "\nimport numpy as np\n\n# Define the sigmoid function\ndef sigmoid(x):\n    return 1 / (1 + np.exp(-x))\n\n# Apply the sigmoid function to each column and add the result to the dataframe\nfor col in df.columns:\n    df[f\"sigmoid_{col}\"] = df[col].apply(sigmoid)\n"}

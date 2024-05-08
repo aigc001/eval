@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.loc[df['product'].isin(products), 'score'] *= 10\n"}

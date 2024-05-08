@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef get_state(row):\n    if row['col2'] <= 50 and row['col3'] <= 50:\n        return row['col1']\n    else:\n        return max(row['col1'], row['col2'], row['col3'])\n\ndf['state'] = df.apply(get_state, axis=1)\n"}

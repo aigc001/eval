@@ -1,0 +1,1 @@
+{"trg_prediction": "sns.catplot(x=\"time\", y=\"pulse\", hue=\"kind\", col=\"diet\", data=df, kind=\"scatter\", ylabel=\"\")\nplt.show()\n"}

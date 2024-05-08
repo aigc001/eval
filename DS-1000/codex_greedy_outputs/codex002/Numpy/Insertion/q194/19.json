@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape B to be (1, 3, 3)\nB = B.reshape(1, 3, 3)\n\n# Use np.matmul to perform matrix multiplication\nresult = np.matmul(A, B)\n"}

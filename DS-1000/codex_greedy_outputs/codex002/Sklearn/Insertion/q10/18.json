@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodel.fit(X, y)\npredicted_test = model.predict(x_predict)\npredicted_test_scores = model.decision_function(x_predict)\n"}

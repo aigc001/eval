@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Define the aggregation functions for each column\nagg_func = {'D': np.sum, 'E': np.mean}\n\n# Create the pivot table\npivot_table = pd.pivot_table(df, values=['D','E'], rows=['B'], aggfunc=agg_func)\n\n# Print the pivot table\nprint(pivot_table)\n"}

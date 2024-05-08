@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a list of tuples where each tuple contains the column levels\nvalue_vars = [(col[0], col[1], col[2]) for col in df.columns]\n\n# Melt the dataframe\nmelted_df = pd.melt(df, value_vars=value_vars)\n\nprint(melted_df)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the string data to numerical data\nX = np.array(X)\nle = preprocessing.LabelEncoder()\nX[:, 0] = le.fit_transform(X[:, 0])\nX[:, 1] = le.fit_transform(X[:, 1])\n\n# Fit the model\nclf.fit(X, ['2', '3'])\n"}

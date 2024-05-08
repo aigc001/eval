@@ -1,0 +1,1 @@
+{"trg_prediction": "fig, axs = plt.subplots(2)\n\naxs[0].plot(x, y, label='Line 1')\naxs[0].plot(x, z, label='Line 2')\naxs[0].legend()\n\naxs[1].plot(a, z)\n\nplt.show()\n"}

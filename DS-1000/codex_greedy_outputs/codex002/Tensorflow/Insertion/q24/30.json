@@ -1,0 +1,1 @@
+{"trg_prediction": "\n  diff = tf.square(tf.subtract(A, B))\n  l2_norm = tf.reduce_sum(diff, axis=1)\n  return l2_norm\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# To change the learning rate during training, you can access the 'param_groups' attribute of the optimizer object and change the 'lr' value.\n# Here's how you can do it:\n\nfor param_group in optim.param_groups:\n    param_group['lr'] = 0.001\n"}

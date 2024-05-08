@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef count_e(group):\n    return (group['key2'].str.endswith('e')).sum()\n\nresult = df.groupby('key1').apply(count_e)\n\nprint(result)\n"}

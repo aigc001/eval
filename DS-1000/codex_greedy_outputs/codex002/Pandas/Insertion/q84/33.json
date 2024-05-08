@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Forward fill the non-zero values\ndf['A'] = df['A'].replace(0, method='ffill')\n\n# Backward fill the non-zero values\ndf['A'] = df['A'].replace(0, method='bfill')\n"}

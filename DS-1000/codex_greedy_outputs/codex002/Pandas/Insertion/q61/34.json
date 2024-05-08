@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a dictionary to map names to unique IDs\nname_to_id = {name: i+1 for i, name in enumerate(df['name'].unique())}\n\n# Replace the names with their corresponding IDs\ndf['name'] = df['name'].map(name_to_id)\n"}

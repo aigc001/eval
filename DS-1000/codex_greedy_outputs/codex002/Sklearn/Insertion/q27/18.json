@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodels = [model]\nfor model in models:\n   scores = cross_val_score(model, X, y, cv=5)\n   print(f'Name model: {model.__class__.__name__} , Mean score: {scores.mean()}')\n"}

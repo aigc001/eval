@@ -1,0 +1,1 @@
+{"trg_prediction": "\n  # Create a grid of indices\n  indices_a = tf.tile(tf.expand_dims(tf.range(tf.size(a)), 1), [1, tf.size(b)])\n  indices_b = tf.tile(tf.expand_dims(tf.range(tf.size(b)), 0), [tf.size(a), 1])\n\n  # Gather elements from a and b based on the indices\n  result = tf.stack([tf.gather(a, indices_a), tf.gather(b, indices_b)], axis=-1)\n\n  return result\n"}

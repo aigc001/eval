@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.scatter(x, y, c=y, cmap='Spectral')\nplt.colorbar(label='y-value')\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Scatter plot with colorbar')\nplt.show()\n"}

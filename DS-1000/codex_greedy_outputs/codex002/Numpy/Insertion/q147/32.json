@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate Pearson correlation coefficient\ncorrelation_coefficient = np.corrcoef(post, distance)[0, 1]\nprint(\"Pearson correlation coefficient: \", correlation_coefficient)\n"}

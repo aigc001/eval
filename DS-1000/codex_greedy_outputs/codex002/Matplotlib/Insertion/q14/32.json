@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# create a pandas dataframe\ndf = pd.DataFrame({'x': x, 'y': y})\n\n# use seaborn to draw a line plot\nsns.lineplot(data=df, x='x', y='y')\n\n# show the plot\nplt.show()\n\n"}

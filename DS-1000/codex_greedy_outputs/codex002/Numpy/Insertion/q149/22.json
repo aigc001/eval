@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape Y into a 3D tensor of shape (N, M, M)\nY = np.reshape(Y, (4, 3, 3))\n\n# Calculate the inverse of each 3x3 matrix\nY_inv = np.linalg.inv(Y)\n\n# Extract the diagonal of each 3x3 matrix\nX = np.diagonal(Y_inv, axis1=1, axis2=2)\n\n# Reshape X into a 2D matrix of shape (M, N)\nX = np.reshape(X, (3, 4))\n"}

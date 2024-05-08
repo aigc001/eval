@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf_c = pd.merge(df_a, df_b, on='EntityNum', how='left')\ndf_c = df_c.drop('a_col', axis=1)\n"}

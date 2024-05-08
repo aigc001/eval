@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Step 1: Multiply the row-th row of the array by a number\na[row, :] = a[row, :] * multiply_number\n# Step 2: Calculate the cumulative sum of the numbers in that row\ncumulative_sum = np.cumsum(a[row, :])\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a structuring element for the binary dilation\ns = np.array([[0, 1, 0], [1, 1, 1], [0, 1, 0]])\n# Perform binary dilation\ndilated = scipy.ndimage.binary_dilation(square, structure=s)\n# Subtract the dilated image from the original to isolate single pixels\nresult = square - dilated\n# Set the single pixels to 0\nresult[result == 1] = 0\n"}

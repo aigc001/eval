@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Shift the rows\ndf['#1'] = df['#1'].shift(1)\ndf['#2'] = df['#2'].shift(1)\n\n# Fill the first row with the last row\ndf.iloc[0] = df.iloc[-1]\n\n# Drop the last row\ndf = df.drop(df.index[-1])\n"}

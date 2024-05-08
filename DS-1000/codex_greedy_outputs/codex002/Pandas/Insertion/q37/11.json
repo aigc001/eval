@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf_filtered = df.loc[row_list, column_list]\nsum_values = df_filtered.sum()\nprint(sum_values)\n"}

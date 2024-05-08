@@ -1,0 +1,1 @@
+{"trg_prediction": "\nlabels, num_features = ndimage.label(img < threshold)\nprint(f\"Number of regions below threshold: {num_features}\")\n"}

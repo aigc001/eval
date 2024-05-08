@@ -1,0 +1,1 @@
+{"trg_prediction": "\nnp.all(a == a[0])\n"}

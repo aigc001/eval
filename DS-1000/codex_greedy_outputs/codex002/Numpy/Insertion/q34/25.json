@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef check_degree_or_radian(number):\n    degree_value = np.sin(number)\n    radian_value = np.sin(np.radians(number))\n    \n    if degree_value > radian_value:\n        return 0\n    else:\n        return 1\n\nnumber = np.random.randint(0, 360)\nprint(check_degree_or_radian(number))\n"}

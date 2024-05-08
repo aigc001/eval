@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the dimensions of the array\ndimensions = a.shape\nprint(dimensions)\n"}

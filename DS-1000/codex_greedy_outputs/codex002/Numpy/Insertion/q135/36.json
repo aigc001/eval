@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the integers to binary and then to a numpy array\nbinary_array = np.array(list(np.binary_repr(a, width=m)))\n\n# Replace '0' and '1' with 0 and 1 respectively\nbinary_array = np.where(binary_array=='0', 0, 1)\n\n# Reshape the array to the desired shape\nbinary_array = binary_array.reshape((a.shape[0], m))\n\nprint(binary_array)\n"}

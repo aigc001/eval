@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the maximum value in each row\nmax_values = df.max(axis=1)\n\n# Filter the dataframe where the maximum value is not 2\nfiltered_df = df[max_values != 2]\n\n# Print the filtered dataframe\nprint(filtered_df)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# The diagonals of the matrix\ndiagonal_1 = matrix.diagonal(offset=-1)\ndiagonal_2 = matrix.diagonal(offset=0)\ndiagonal_3 = matrix.diagonal(offset=1)\n\n# Create the tridiagonal matrix\ntridiagonal_matrix = sparse.diags([diagonal_1, diagonal_2, diagonal_3], [-1, 0, 1], (5, 5)).toarray()\n\nprint(tridiagonal_matrix)\n"}

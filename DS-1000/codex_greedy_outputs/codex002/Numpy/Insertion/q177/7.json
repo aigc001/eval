@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef rolling_window(a, size):\n    shape = (a.shape[0] - size[0] + 1,) + (a.shape[1] - size[1] + 1,) + size\n    strides = a.strides + a.strides\n    return np.lib.stride_tricks.as_strided(a, shape=shape, strides=strides)\n\nwindows = rolling_window(a, size)\n"}

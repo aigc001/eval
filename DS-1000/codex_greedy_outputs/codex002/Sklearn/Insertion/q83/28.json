@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodel = LinearSVC(penalty='l1')\nmodel.fit(X, y)\n# Get the coefficients\ncoef = model.coef_[0]\n# Get the indices of non-zero coefficients\nselected_features = np.where(coef != 0)[0]\n# Get the corresponding feature names\nselected_features = np.asarray(vectorizer.get_feature_names())[selected_features]\n"}

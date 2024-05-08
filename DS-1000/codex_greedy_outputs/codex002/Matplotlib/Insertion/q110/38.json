@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.pie(sizes, labels=labels, colors=colors,\n         autopct='%1.1f%%', startangle=140, shadow=True)\n\nplt.title('Pie Chart')\n\nplt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.\n\nplt.tight_layout()\n\nplt.show()\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert list of lists to DataFrame\ndf = pd.DataFrame(f)\n\n# Fill missing values with 0\ndf.fillna(0, inplace=True)\n\n# Convert DataFrame to 2D array\nf_array = df.values\n\n# Print the array\nprint(f_array)\n"}

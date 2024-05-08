@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# compare the two arrays with a tolerance of the machine precision\ntol = np.finfo(float).eps\ndiff = np.abs(s1 - s2)\n# print the number of times s1 and s2 are different up to the machine precision\nprint np.nonzero(diff > tol)[0].shape[0]\n"}

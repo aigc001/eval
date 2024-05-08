@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    dev = abs((x-u)/o2)\n    P_inner = scipy.integrate.quad(NDfx,-dev,dev)\n    P_outer = 1 - P_inner[0]\n    P = P_inner[0] + P_outer/2\n    return(P)\n"}

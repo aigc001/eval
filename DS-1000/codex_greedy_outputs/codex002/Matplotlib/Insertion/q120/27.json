@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y)\nplt.title(r'$\\phi$', weight='bold')\nplt.xlabel('x', weight='bold')\nplt.ylabel('y', weight='bold')\nplt.show()\n"}

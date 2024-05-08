@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the tensors to numpy arrays\nA_np = A.numpy()\nB_np = B.numpy()\n\n# Find the indices where the two arrays are not equal\ndiff_indices = np.where(A_np != B_np)\n\n# Get the count of the indices\ncount = len(diff_indices[0])\n\n# Print the count\nprint(f\"Count of different elements: {count}\")\n"}

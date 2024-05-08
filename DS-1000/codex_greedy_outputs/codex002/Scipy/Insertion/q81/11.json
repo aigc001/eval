@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Vertically stack sparse matrices\nsc = sparse.vstack([sa, sb])\n"}

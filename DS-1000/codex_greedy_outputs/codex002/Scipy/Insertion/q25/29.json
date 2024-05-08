@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Set the diagonal to zero\nb.data[b.indptr[1]::b.shape[0]+1] = 0\n# Remove the zero entries\nb.eliminate_zeros()\n"}

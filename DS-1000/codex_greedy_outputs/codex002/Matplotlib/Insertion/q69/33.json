@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y, label=\"y over x\")\nplt.legend()\nplt.legend(title=\"Legend\")\nplt.setp(plt.gca().get_legend().get_title(), fontweight=\"bold\")\n"}

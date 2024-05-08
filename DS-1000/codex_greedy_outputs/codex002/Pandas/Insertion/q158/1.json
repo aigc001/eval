@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column based on the conditions\ndf['Family'] = (df['Survived'] > 0) | (df['Parch'] > 0)\n\n# Group by the new column and compute the mean\ngrouped = df.groupby('Family')['SibSp'].mean()\n\n# Rename the groups\ngrouped = grouped.rename({True: 'Has Family', False: 'No Family'})\n\nprint(grouped)\n"}

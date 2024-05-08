@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reverse the dataframe\ndf = df[::-1]\n\n# Create a new column 'group' which increments every 3 rows\ndf['group'] = (df.index // 3).astype(int)\n\n# Group by 'group' and take the mean of 'col1'\ndf = df.groupby('group').mean().reset_index(drop=True)\n\n# The result is the desired output\nprint(df)\n"}

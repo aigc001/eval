@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# set Date as index\ndf.set_index('Date', inplace=True)\n\n# count zero values\nresult1 = df.applymap(lambda x: (x == 0).sum())\n\n# count non-zero values\nresult2 = df.applymap(lambda x: (x != 0).sum())\n\nprint(\"Zero values:\")\nprint(result1)\nprint(\"\\nNon-zero values:\")\nprint(result2)\n"}

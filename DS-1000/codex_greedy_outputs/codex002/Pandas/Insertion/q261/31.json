@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the TIME column to datetime\ndf['TIME'] = pd.to_datetime(df['TIME'])\n\n# Add a new column 'RANK' which ranks the TIME column for each ID in descending order\ndf['RANK'] = df.groupby('ID')['TIME'].rank(ascending=False, method='dense')\n\n# Format the TIME column to the desired format\ndf['TIME'] = df['TIME'].dt.strftime('%d-%b-%Y %a %H:%M:%S')\n"}

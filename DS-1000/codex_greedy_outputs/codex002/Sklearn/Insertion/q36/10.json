@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef prePro(text):\n    return text.lower()\n\ndata = pd.DataFrame({'text': ['Hello World', 'Python is awesome', 'I love programming']})\n\nvectorizer = TfidfVectorizer(preprocessor=prePro)\nX = vectorizer.fit_transform(data['text'])\n"}

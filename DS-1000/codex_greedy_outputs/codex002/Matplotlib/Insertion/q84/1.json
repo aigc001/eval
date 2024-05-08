@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.hist(data, bins=5, edgecolor='black', density=True)\nplt.ylim(0, 1)\nplt.yticks(np.arange(0, 1, 0.1))\nplt.gca().yaxis.set_major_formatter(plt.PercentFormatter(1))\nplt.show()\n"}

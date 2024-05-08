@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef reverse_and_join(lst):\n    return ','.join(map(str, lst[::-1]))\n\ndf['col1'] = df['col1'].apply(reverse_and_join)\n"}

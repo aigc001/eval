@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Reshape the array to 1D\n    a = a.reshape(-1,1)\n    # Use MinMaxScaler\n    scaler = MinMaxScaler()\n    a = scaler.fit_transform(a)\n    # Reshape it back to 2D\n    a = a.reshape(np_array.shape)\n    return a\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n#iterate through columns\nfor Col in xrange(sa.shape[1]):\n    #get the column\n    Column = sa[:,Col].toarray().flatten()\n    #normalize the column\n    Column /= math.sqrt(np.sum(Column**2))\n    #update the column in the sparse matrix\n    sa[:,Col] = Column\n"}

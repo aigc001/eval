@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use index_select function\nC = torch.index_select(B, 1, idx)\n"}

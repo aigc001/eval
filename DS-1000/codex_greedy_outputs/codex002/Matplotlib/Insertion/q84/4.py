@@ -1,0 +1,5 @@
+plt.hist(data, bins=5, edgecolor='black', density=True)
+plt.ylim(0, 1)
+plt.yticks(np.arange(0, 1, 0.1))
+plt.gca().yaxis.set_major_formatter(plt.PercentFormatter(1))
+plt.show()

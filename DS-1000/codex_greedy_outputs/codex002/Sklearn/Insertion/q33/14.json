@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape X to be 2D\nX = X.reshape(-1, 1)\n\n# Fit the model\nregressor = RandomForestRegressor(n_estimators=150, min_samples_split=1.0, random_state=42)\nrgr = regressor.fit(X, y)\n"}

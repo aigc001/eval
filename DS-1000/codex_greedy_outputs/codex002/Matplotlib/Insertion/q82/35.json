@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.loglog(x, y, label='y=x')\nplt.grid(True)\nplt.xticks([1, 10, 100])\nplt.yticks([1, 10, 100])\nplt.gca().xaxis.set_major_formatter(plt.ScalarFormatter())\nplt.gca().yaxis.set_major_formatter(plt.ScalarFormatter())\nplt.legend()\nplt.show()\n"}

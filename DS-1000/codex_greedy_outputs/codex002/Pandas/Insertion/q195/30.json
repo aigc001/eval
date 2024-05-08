@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Split the strings in the 'var2' column into lists\ndf['var2'] = df['var2'].str.split(',')\n\n# Explode the lists into separate rows\ndf = df.explode('var2')\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.scatter(b, a)\n\nfor i, (x, y) in enumerate(zip(b, a)):\n    plt.text(x, y, c[i], fontsize=10, ha='center')\n\nplt.xlabel('b')\nplt.ylabel('a')\nplt.title('Scatter plot of a over b')\nplt.show()\n"}

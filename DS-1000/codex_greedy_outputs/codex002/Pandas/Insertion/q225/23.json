@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Count the number of NaN values\nnan_count = df['Column_x'].isnull().sum()\n\n# Calculate the number of 0s and 1s to fill\nzero_count = int(nan_count // 2)\none_count = nan_count - zero_count\n\n# Fill the NaN values\ndf['Column_x'].fillna(0, inplace=True, limit=zero_count)\ndf['Column_x'].fillna(1, inplace=True, limit=one_count)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.columns = df.iloc[0]\ndf = df.drop(0)\ndf.columns.name = None\n"}

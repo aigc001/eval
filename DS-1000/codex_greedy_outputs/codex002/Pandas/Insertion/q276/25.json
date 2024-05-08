@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# sort the dataframe by the 'time' index level\ndf.sort_index(level='time', inplace=True)\n"}

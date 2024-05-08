@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the greatest common divisor (gcd)\ngcd = np.gcd(numerator, denominator)\n\n# Divide both the numerator and denominator by the gcd\nnumerator = numerator // gcd\ndenominator = denominator // gcd\n"}

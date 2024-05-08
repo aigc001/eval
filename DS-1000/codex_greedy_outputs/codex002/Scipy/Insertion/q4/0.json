@@ -1,0 +1,1 @@
+{"trg_prediction": "\ntest_stat, p_value = stats.ks_2samp(x, y)\nif p_value < alpha:\n    print(\"We can reject the null hypothesis that the two distributions are identical\")\nelse:\n    print(\"We cannot reject the null hypothesis that the two distributions are identical\")\n"}

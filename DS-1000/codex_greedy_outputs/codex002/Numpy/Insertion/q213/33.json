@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use numpy's advanced indexing to select the elements from a based on b\nselected = a[np.arange(a.shape[0])[:, np.newaxis, np.newaxis], np.arange(a.shape[1])[np.newaxis, :, np.newaxis], b]\n# Sum the selected elements\nresult = np.sum(selected)\nprint(result)\n"}

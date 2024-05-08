@@ -1,0 +1,1 @@
+{"trg_prediction": "\ncols = [col for col in df.columns if s in col]\nprint(cols)\n"}

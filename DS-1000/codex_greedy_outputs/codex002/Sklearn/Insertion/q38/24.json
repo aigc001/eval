@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Apply the preprocessing\nscaled_data = preprocessing.scale(data.values)\n\n# Create a new DataFrame using the scaled data and the original column names\nscaled_dataframe = pd.DataFrame(scaled_data, columns=data.columns, index=data.index)\n"}

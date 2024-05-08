@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Method 1: Use the copy() function\na = array_of_arrays.copy()\n\n# Method 2: Use the np.copy() function\nb = np.copy(array_of_arrays)\n\n# Method 3: Use the copy parameter in np.array()\nc = np.array(array_of_arrays, copy=True)\n"}

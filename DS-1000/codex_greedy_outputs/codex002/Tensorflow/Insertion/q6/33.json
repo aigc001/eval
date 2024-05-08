@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a tensor with the shape of the required tensor\nrequired_tensor = tf.zeros((len(labels), 10), dtype=tf.int32)\n\n# Iterate over the list of labels\nfor i, label in enumerate(labels):\n    # Set the label index to 1 in the required tensor\n    required_tensor[i, label] = 1\n\nprint(required_tensor)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the tensors to numpy arrays\nA_np = A.numpy()\nB_np = B.numpy()\n\n# Compare the two arrays and get the number of equal elements\nnum_equal = np.sum(A_np == B_np)\n\n# Print the number of equal elements\nprint(num_equal)\n"}

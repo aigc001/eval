@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef f(vars):\n  a, b, c = vars\n  return ((a+b-c)-2)**2 + ((3*a-b-c))**2 + sin(b) + cos(b) + 4\n\nres = optimize.minimize(f, initial_guess)\n\nprint(res.x)\n"}

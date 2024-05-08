@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a boolean mask where True values correspond to NaN values\nmask = df.isnull()\n\n# Use the mask to shift values downwards\ndf[mask] = df[mask].shift(1)\n\n# Fill remaining NaN values with 0\ndf.fillna(0, inplace=True)\n"}

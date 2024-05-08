@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Calculate the greatest common divisor (gcd)\n    gcd = np.gcd(numerator, denominator)\n\n    # Return the reduced fraction\n    return (numerator // gcd, denominator // gcd)\n"}

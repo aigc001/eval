@@ -1,0 +1,1 @@
+{"trg_prediction": "\nNA = NA.astype(float)\nAVG = np.mean(NA, axis=0)\nprint(AVG)\n"}

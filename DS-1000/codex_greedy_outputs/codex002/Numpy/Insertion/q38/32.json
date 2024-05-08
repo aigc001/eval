@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Using the np.power function\nprint(np.power(a, power))\n\n# Using the `**` operator\nprint(a ** power)\n"}

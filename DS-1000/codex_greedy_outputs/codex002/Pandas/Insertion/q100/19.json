@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# replace &AMP; with '&' in all columns\ndf = df.replace('&AMP;', '&', regex=True)\n"}

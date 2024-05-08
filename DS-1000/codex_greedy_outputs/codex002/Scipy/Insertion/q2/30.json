@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef func(x, A, B, C):\n    return A * np.exp(B * x) + C\n\npopt, pcov = scipy.optimize.curve_fit(func, x, y, p0=p0)\n\nprint(popt)\n"}

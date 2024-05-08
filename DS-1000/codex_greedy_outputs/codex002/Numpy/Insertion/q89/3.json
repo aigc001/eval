@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert numpy array to tensorflow tensor\nt = tf.convert_to_tensor(a)\n"}

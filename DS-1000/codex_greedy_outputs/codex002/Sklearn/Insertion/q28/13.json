@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodels = [model]\nmodel_names = [type(model).__name__]\n\ncv_scores = []\nfor model, model_name in zip(models, model_names):\n   scores = cross_val_score(model, X, y, cv=5)\n   cv_scores.append(scores.mean())\n\ndf = pd.DataFrame({'Model': model_names, 'CV Score': cv_scores})\nprint(df)\n"}

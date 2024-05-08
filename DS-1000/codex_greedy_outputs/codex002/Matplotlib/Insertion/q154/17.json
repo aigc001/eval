@@ -1,0 +1,1 @@
+{"trg_prediction": "gs = gridspec.GridSpec(nrow, ncol, wspace=0, hspace=0)\n\nfor i in range(nrow):\n    for j in range(ncol):\n        ax = fig.add_subplot(gs[i, j])\n        ax.imshow(x, cmap='gray')\n        ax.axis('off')\n"}

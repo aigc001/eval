@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Insert the new row at the specified position\na = np.insert(a, pos, element, axis=0)\nprint(a)\n"}

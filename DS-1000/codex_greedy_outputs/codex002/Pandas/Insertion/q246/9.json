@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf_concatenated = pd.DataFrame(series.values.tolist(), index=series.index)\n"}

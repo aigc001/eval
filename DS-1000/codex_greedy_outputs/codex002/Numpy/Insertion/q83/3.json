@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef ecdf(x):\n    x = np.sort(x)\n    n = len(x)\n    def _ecdf(v):\n        return (np.searchsorted(x, v, side='right') + 1) / n\n    return _ecdf\n\necdf_func = ecdf(grades)\n\necdf_values = ecdf_func(eval)\n\nprint(ecdf_values)\n"}

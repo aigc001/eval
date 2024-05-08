@@ -1,0 +1,1 @@
+{"trg_prediction": "\nindex = np.where((x == a) & (y == b))[0]\nindex = index[0] if index.size else -1\n"}

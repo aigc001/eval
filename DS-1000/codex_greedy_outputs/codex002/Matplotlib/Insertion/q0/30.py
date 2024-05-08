@@ -1,0 +1,7 @@
+plt.figure(figsize=(8,6))
+plt.scatter(x, y, label='x-y')
+plt.legend()
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Scatter plot of x vs y')
+plt.show()

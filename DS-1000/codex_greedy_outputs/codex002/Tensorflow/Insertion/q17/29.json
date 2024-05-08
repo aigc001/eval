@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Add a new dimension\na = tf.expand_dims(a, axis=2)\n\n# Check the shape\nprint(a.shape)\n"}

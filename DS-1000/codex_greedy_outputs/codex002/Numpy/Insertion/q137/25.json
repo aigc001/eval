@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the mean and standard deviation\nmean = np.mean(a)\nstd = np.std(a)\n\n# Calculate the 3rd standard deviation\nthird_std = 3 * std\n\n# Calculate the start and end of the 3rd standard deviation interval\nstart = mean - third_std\nend = mean + third_std\n\n# Return the result as a tuple\nresult = (start, end)\n"}

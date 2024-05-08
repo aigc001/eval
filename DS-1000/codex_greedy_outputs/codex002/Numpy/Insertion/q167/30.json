@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom scipy.spatial.distance import cdist\ndist_matrix = cdist(a, a, 'euclidean')\n"}

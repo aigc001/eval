@@ -1,0 +1,1 @@
+{"trg_prediction": "ax = plt.gca()\nax.ticklabel_format(style='plain', axis='y')\n"}

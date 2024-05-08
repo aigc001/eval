@@ -1,0 +1,1 @@
+{"trg_prediction": "\nuniform_data = np.random.uniform(0, T, len(times))\nks_result = stats.kstest(times, 'uniform', args=(0, T))\n"}

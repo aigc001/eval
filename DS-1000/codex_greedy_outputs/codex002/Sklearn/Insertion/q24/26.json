@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# inverse transform\ninverse_scaled = scaler.inverse_transform(scaled)\n"}

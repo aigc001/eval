@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a LabelEncoder object\nle = LabelEncoder()\n\n# Use the fit_transform method on the 'Sex' column\ndf['Sex'] = le.fit_transform(df['Sex'])\n"}

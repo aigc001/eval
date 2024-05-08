@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    labeled_array, num_features = ndimage.label(img > threshold)\n    return num_features\n"}

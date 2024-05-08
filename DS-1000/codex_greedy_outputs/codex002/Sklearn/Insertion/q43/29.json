@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the feature importances\nimportances = clf.feature_importances_\n\n# Get the indices of the important features\nindices = np.where(importances > 0)[0]\n\n# Get the column names of the important features\nimportant_columns = X.columns[indices]\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the csr_matrix back to a DataFrame\ndf_transformed = pd.DataFrame(transform_output.toarray(), columns=['transformed_data'])\n\n# Merge the transformed DataFrame with the original DataFrame\ndf_final = pd.concat([df_origin, df_transformed], axis=1)\n"}

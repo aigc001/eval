@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use np.isnan to find the nan values and ~ to invert the result\nx = x[~np.isnan(x)]\n# Reshape the result into a list of lists\nx = x.tolist()\n"}

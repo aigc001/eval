@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y)\nplt.xticks(rotation=45)\nplt.gca().tick_params('x', top=True, bottom=True, labeltop=True, labelbottom=True)\nplt.show()\n"}

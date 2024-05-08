@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the mean and standard deviation\nmean = np.mean(a)\nstd = np.std(a)\n\n# Define the 2nd standard deviation interval\nlower_bound = mean - 2 * std\nupper_bound = mean + 2 * std\n\n# Create a boolean array where True indicates an outlier\noutliers = (a < lower_bound) | (a > upper_bound)\n"}

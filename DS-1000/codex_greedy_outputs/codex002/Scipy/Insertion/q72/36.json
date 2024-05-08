@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a grid of coordinates\nx = np.arange(shape[1])\ny = np.arange(shape[0])\nX, Y = np.meshgrid(x, y)\n\n# Compute the Manhattan distance from the center\nmid = np.array([shape[0]//2, shape[1]//2])\ndist = np.abs(X - mid[1]) + np.abs(Y - mid[0])\n"}

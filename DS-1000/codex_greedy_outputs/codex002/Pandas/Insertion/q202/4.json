@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Replace 0 with NaN\ndf.replace(0, np.nan, inplace=True)\n\n# Calculate the cumulative average\ndf['2001'] = df['2001']\nfor year in range(2002, 2007):\n    df[year] = df[year-1] + (df[year] - df[year-1]) / (df[year] - df[year-1]).count()\n\n# Replace NaN with 0\ndf.fillna(0, inplace=True)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(10, 6))\nplt.plot(x, y)\nplt.title('Plot y over x', fontsize=20)\nplt.xlabel('x', fontsize=18)\nplt.ylabel('y', fontsize=16)\nplt.show()\n"}

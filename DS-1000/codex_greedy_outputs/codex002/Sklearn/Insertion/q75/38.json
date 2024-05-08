@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Initialize CountVectorizer\nvectorizer = CountVectorizer(token_pattern=r\"(?u)\\b\\w+\\b|[!?]|\\\"|\\'\")\n\n# Fit and transform the data\ndata_matrix = vectorizer.fit_transform(text)\n\n# Get the feature names\nfeature_names = vectorizer.get_feature_names()\n\n# Create a dataframe\ndf = pd.DataFrame(data_matrix.toarray(), columns=feature_names)\n"}

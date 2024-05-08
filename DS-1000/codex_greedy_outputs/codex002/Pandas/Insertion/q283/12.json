@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the first column name\nfirst_column = df.columns[0]\n\n# Rename the first column\ndf = df.rename(columns={first_column: 'Test'})\n"}

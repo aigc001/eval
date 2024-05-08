@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a mask of the same shape as 'a' with zeros\nmask = torch.zeros_like(a)\n\n# For each row in the mask, set the values after the corresponding length in 'lengths' to 1\nfor i, length in enumerate(lengths):\n    mask[i, length:, :] = 1\n\n# Use the mask to set the values in 'a' to 0\na = a * (1 - mask)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf['b'] = np.where((df['a'] > 1) & (df['a'] <= 4), df['b'], np.nan)\nprint(df['b'])\n"}

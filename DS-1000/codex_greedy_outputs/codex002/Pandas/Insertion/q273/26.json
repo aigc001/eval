@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf['Sum'] = df[list_of_my_columns].sum(axis=1)\n"}

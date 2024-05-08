@@ -1,0 +1,1 @@
+{"trg_prediction": "for i, line in enumerate(lines):\n    x = [point[0] for point in line]\n    y = [point[1] for point in line]\n    plt.plot(x, y, color=c[i])\n"}

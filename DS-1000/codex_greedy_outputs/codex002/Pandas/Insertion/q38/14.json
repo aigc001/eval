@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the sum of the rows specified in row_list for the columns specified in column_list\nsum_df = df.loc[row_list, column_list].sum()\n\n# Delete the largest value\nsum_df = sum_df.drop(sum_df.idxmax())\n\nprint(sum_df)\n"}

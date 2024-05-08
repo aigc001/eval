@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef smoothstep(x, x_min, x_max, N):\n    if N <= 0:\n        return np.clip(x, x_min, x_max)\n    else:\n        x_N = (x - x_min) / (x_max - x_min)\n        return x_min + (x_max - x_min) * x_N**N * (N + 1) / (N + 1 + N * x_N)\n\nprint(smoothstep(x, x_min, x_max, N))\n"}

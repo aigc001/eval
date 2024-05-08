@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure()\nfor i, col in enumerate(x.T):\n    plt.plot(col, label=[\"a\", \"b\"][i])\nplt.legend()\n"}

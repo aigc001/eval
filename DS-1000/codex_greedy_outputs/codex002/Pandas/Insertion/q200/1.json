@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Split the row into two columns\ndf[['fips', 'row']] = df['row'].str.split(expand=True)\n\nprint(df)\n"}

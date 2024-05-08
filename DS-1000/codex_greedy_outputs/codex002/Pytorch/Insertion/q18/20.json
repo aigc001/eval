@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Convert numpy array to list\n    a_list = a.tolist()\n    # Convert list to torch tensor\n    a_tensor = torch.tensor(a_list)\n    return a_tensor\n"}

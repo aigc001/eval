@@ -1,0 +1,1 @@
+{"trg_prediction": "\nx = x.numpy() # convert torch tensor to numpy array\ndf = pd.DataFrame(x) # convert numpy array to pandas DataFrame\n"}

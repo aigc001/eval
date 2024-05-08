@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use apply to convert each list to a string\ndf['col1'] = df['col1'].apply(lambda x: ','.join(map(str, x)))\n"}

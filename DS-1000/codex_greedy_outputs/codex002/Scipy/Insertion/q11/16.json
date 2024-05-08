@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use the dot function to perform matrix multiplication\nsc = sa.dot(sb)\n"}

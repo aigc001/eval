@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use the vstack function to vertically stack the two matrices\nfeature = sparse.vstack((c1, c2))\n"}

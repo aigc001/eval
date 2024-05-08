@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.hist([x, y], bins=5, edgecolor='black', label=['x', 'y'])\nplt.legend()\nplt.show()\n"}

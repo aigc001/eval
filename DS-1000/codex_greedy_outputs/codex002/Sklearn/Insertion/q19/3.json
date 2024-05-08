@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the steps\nsteps = clf.named_steps\n\n# Insert a new step\nsteps['t1919810'] = PCA()\n\n# Insert the new step at the correct position\nclf.steps.insert(1, ('t1919810', steps['t1919810']))\n"}

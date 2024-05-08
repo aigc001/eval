@@ -1,0 +1,1 @@
+{"trg_prediction": "\nkm.fit(X)\ncenters = km.cluster_centers_\ndistances = np.linalg.norm(X[:, None] - centers, axis=-1)\nclosest_samples = np.argsort(distances, axis=0)[p]\nclosest_samples_data = X[closest_samples]\n"}

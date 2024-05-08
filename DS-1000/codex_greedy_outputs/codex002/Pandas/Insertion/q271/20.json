@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Replace pd.NA with np.nan\ndf.fillna(value=pd.np.nan, inplace=True)\n\n# Round the 'dogs' column to 2 decimal places\ndf['dogs'] = df['dogs'].round(2)\n"}

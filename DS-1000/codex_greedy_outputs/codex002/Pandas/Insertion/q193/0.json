@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new DataFrame where we apply the aggregation functions separately\ndf_new = pd.DataFrame({\n    'D_max': df.groupby('B')['D'].max(),\n    'E_min': df.groupby('B')['E'].min()\n})\n\nprint(df_new)\n"}

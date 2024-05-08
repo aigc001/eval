@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# get the number of columns in the array\nnum_cols = a.shape[1]\n\n# constrain the high index to be within the number of columns\nhigh = min(high, num_cols)\n\n# slice the array to get the desired columns\na = a[:, low:high]\n"}

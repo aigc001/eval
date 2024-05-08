@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Test if c is in CNTS\nprint(c in CNTS)\n\n# Remove c from CNTS\nCNTS = [x for x in CNTS if not np.array_equal(x, c)]\n"}

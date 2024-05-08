@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Shuffle the DataFrame according to the list\ndf = df.iloc[List]\n\n# Find the rows where Type is different from the original DataFrame\ndiff_rows = df.loc[df['Type'] != df['Type'].iloc[List]]\n\n# Print the number of rows where Type is different\nprint(len(diff_rows))\n"}

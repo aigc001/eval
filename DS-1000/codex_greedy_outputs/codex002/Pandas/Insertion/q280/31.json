@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a mask of the values that are above 0.3\nmask = corr.abs() > 0.3\n\n# Use the mask to filter the values\nfiltered_corr = corr.where(mask)\n\n# Drop the rows and columns that are all NaN\nfiltered_corr = filtered_corr.dropna(how='all', axis=0).dropna(how='all', axis=1)\n\nprint(filtered_corr)\n"}

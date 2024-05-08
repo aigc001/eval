@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    tensor_of_tensors = torch.stack(lt)\n    return tensor_of_tensors\n"}

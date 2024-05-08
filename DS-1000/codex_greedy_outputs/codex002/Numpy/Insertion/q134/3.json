@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the integers to binary and then to a numpy array\nbinary_array = np.unpackbits(np.uint8(a), bitorder='big')\n\n# Reshape the array to the desired shape\nbinary_array = binary_array.reshape((a.size, m))\n\nprint(binary_array)\n"}

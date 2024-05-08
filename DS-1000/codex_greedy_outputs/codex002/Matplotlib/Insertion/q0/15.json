@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(8,6))\nplt.scatter(x, y, label='x-y')\nplt.legend()\nplt.xlabel('x')\nplt.ylabel('y')\nplt.title('Scatter plot of x vs y')\nplt.show()\n"}

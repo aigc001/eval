@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef func(x, a):\n    return a.dot(x ** 2)\n\ndef residual(x, a, y):\n    return func(x, a) - y\n\nres = scipy.optimize.minimize(residual, x0, args=(a, y))\nx_opt = res.x\n"}

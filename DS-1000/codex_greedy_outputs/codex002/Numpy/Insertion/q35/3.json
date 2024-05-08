@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the value to degrees\ndegrees = np.degrees(np.arcsin(value))\n"}

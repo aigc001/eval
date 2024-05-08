@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Group by 'Sp' and 'Mt', and for each group, get the row(s) where 'count' is minimum\nmin_rows = df.loc[df.groupby(['Sp', 'Mt'])['count'].idxmin()]\n\nprint(min_rows)\n"}

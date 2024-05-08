@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the steps\nsteps = clf.named_steps\n# Delete the 2nd step\ndel steps['pOly']\n# Check the steps\nclf\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find columns that contain the string 'spike'\ncols = [col for col in df.columns if s in col]\n\n# Rename the columns\nfor i, col in enumerate(cols):\n    df.rename(columns={col: s + str(i+1)}, inplace=True)\n"}

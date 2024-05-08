@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Fit the pipeline up to the NMF step\npipe.fit(data.test)\n\n# Transform the data with the TfidfVectorizer\ntfidf_data = pipe.named_steps[\"tf_idf\"].transform(data.test)\n\n# Now you can apply the NMF to the tfidf_data\nnmf_data = pipe.named_steps[\"nmf\"].transform(tfidf_data)\n"}

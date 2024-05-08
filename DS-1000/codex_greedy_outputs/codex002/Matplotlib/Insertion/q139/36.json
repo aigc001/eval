@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure(figsize=(10, 6))\nax = plt.gca()\n\n# Hide the axes\nax.axis(\"off\")\n\n# Create a table from df\ntable = pd.plotting.table(ax, df, loc=\"center\")\n\n# Set the bbox of the table to [0, 0, 1, 1]\ntable.set_bbox([0, 0, 1, 1])\n\n# Show the plot\nplt.show()\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# replace &LT; with '<' in all columns\ndf = df.replace('&LT;', '<', regex=True)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmean = col.mean()\nstd_dev = np.std(col.toarray())\n"}

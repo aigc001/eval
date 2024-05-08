@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Convert the input tensor to a list of words\n    words = [word for sentence in input_Tensor for word in sentence]\n\n    # Get the word vectors from word2vec\n    word_vectors = [word2vec.wv[word] for word in words]\n\n    # Convert the word vectors to a tensor\n    embedded_input = torch.tensor(word_vectors)\n\n    return embedded_input\n"}

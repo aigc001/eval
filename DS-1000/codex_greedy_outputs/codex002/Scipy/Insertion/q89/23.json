@@ -1,0 +1,1 @@
+{"trg_prediction": "\n#iterate through columns\nfor Col in xrange(sa.shape[1]):\n   Column = sa[:,Col].toarray().flatten()\n   List = [x**2 for x in Column]\n   #get the column length\n   Len = math.sqrt(sum(List))\n   #scalar multiplication\n   Column = Column/Len\n   #update the column\n   sa[:,Col] = sparse.csr_matrix(Column)\n"}

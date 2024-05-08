@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Construct a full matrix with the scalar value x\nx_matrix = sparse.csr_matrix(x * np.ones(V.shape))\n\n# Add the scalar y to the result\nB = x_matrix + V + y\n"}

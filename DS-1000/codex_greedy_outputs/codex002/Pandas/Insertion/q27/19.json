@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Shift the data up by one row\ndf.loc['1980-01-01'] = df.loc['1980-01-02']\ndf.loc['1980-01-02'] = df.loc['1980-01-03']\ndf.loc['1980-01-03'] = df.loc['1980-01-04']\ndf.loc['1980-01-04'] = df.loc['1980-01-05']\n\n# Put the first row of data at the bottom\ndf.loc['1980-01-05'] = df.iloc[0]\n\n# Print the result\nprint(df)\n"}

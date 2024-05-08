@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Use argmax function to get the index of the maximum value in each row\n    return tf.argmax(a, axis=1)\n"}

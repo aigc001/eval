@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Assuming that you have a model and an optimizer\nmodel = MyModel()\noptimizer = torch.optim.SGD(model.parameters(), lr=0.01)\n\n# Now, let's say you want to change the learning rate to 0.001\nfor param_group in optimizer.param_groups:\n    param_group['lr'] = 0.001\n"}

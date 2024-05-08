@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the data into the desired bin size\nbin_data = data.reshape(-1, bin_size)\n\n# Calculate the mean of each bin\nbin_data_mean = np.mean(bin_data, axis=1)\n\nprint(bin_data_mean)\n"}

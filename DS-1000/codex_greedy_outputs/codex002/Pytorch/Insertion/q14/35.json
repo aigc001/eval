@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the ByteTensor to a boolean mask\nmask = A_log.bool()\n\n# Use the mask to select the columns from B\nC = B[:, mask]\n"}

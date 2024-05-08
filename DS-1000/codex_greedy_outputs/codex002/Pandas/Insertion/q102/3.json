@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    df.replace({'&AMP;': '&'}, regex=True, inplace=True)\n    return df\n"}

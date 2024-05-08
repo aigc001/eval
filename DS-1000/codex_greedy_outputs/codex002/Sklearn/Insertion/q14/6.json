@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the steps\nsteps = clf.named_steps\n# Delete the 'poly' step\ndel steps['poly']\n# Recreate the pipeline\nclf = Pipeline(steps.values())\n"}

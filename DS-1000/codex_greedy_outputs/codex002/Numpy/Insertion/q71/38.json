@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# We subtract 1 from each element in del_col because indexing in python starts from 0\n# We also need to make sure that the indices are not out of bounds\ndel_col = del_col - 1\ndel_col = del_col[del_col < a.shape[1]]\n# We delete the columns\na = np.delete(a, del_col, axis=1)\n"}

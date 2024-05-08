@@ -1,0 +1,1 @@
+{"trg_prediction": "\nm = tf.gather_nd(x, tf.stack([row, col], axis=1))\n"}

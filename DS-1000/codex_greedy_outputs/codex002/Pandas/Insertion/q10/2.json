@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef nested_dict(df):\n    d = {}\n    for row in df.itertuples():\n        d[row.name] = d.get(row.name, {})\n        d[row.name][row.v1] = d[row.name].get(row.v1, {})\n        d[row.name][row.v1][row.v2] = row.v3\n    return d\n\nprint(nested_dict(df))\n"}

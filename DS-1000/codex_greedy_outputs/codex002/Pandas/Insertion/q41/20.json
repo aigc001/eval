@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfor col in df.columns:\n    print(df[col].value_counts())\n    print()\n"}

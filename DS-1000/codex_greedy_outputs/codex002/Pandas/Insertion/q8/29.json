@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column that combines 'url' and 'drop_if_dup'\ndf['combined'] = df['url'] + df['drop_if_dup']\n\n# Drop duplicates in this new column\ndf = df.drop_duplicates(subset='combined', keep='first')\n\n# Drop the 'combined' column\ndf = df.drop(columns='combined')\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the data into the desired bin size, then take the mean along the row axis.\nbin_data_mean = np.mean(data[-bin_size:].reshape(-1, bin_size), axis=1)\nprint(bin_data_mean)\n"}

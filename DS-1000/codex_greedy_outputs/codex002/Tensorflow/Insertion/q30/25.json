@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the list of bytes to a Tensor\nx_tensor = tf.constant(x)\n\n# Decode the bytes to strings\nx_strings = tf.strings.decode(x_tensor, 'utf-8')\n\n# Convert the Tensor to a list of strings\nx_list = x_strings.numpy().tolist()\n\nprint(x_list)\n"}

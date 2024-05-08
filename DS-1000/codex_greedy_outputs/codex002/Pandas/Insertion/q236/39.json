@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reverse the DataFrame and concatenate the 'text' column with '-' as the separator\nresult = df[::-1]['text'].str.cat(sep='-')\n"}

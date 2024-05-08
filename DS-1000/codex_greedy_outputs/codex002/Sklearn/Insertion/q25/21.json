@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Fit the model\n    model.fit(data.drop('t', axis=1), data['t'])\n    # Predict\n    predictions = model.predict(scaled.drop('t', axis=1))\n    # Inverse transform\n    predictions = scaler.inverse_transform(predictions)\n    # Check score\n    score = model.score(data.drop('t', axis=1), data['t'])\n    return predictions, score\n"}

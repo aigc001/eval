@@ -1,0 +1,1 @@
+{"trg_prediction": "\nC = tf.einsum('bns,bms->bnm', A, B)\n"}

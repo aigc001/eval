@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a mask of the indices in b\nmask = np.zeros_like(a)\nmask[np.arange(a.shape[0])[:,None,None],np.arange(a.shape[1])[None,:,None],b] = 1\n\n# Use the mask to select the elements in a and sum them\nresult = np.sum(a*mask)\n\nprint(result)\n"}

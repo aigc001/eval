@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the tensor\na = tf.reshape(a, (50, 100, 512))\n"}

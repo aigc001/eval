@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Extract the main diagonal of a sparse matrix\ndiagonal = M.diagonal()\n\nprint(diagonal)\n"}

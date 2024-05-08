@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the rows we're interested in\nrow0 = df.iloc[0].dropna()\nrow8 = df.iloc[8].dropna()\n\n# Get the columns that are different\ndiff_cols = row0[row0 != row8].index\n\nprint(diff_cols)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom sklearn.preprocessing import StandardScaler\nscaler = StandardScaler()\nscaled_data = scaler.fit_transform(data)\n"}

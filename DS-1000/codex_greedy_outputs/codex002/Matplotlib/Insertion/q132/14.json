@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.hist(x, bins=5, range=(0, 10), edgecolor='black')\nplt.xticks(np.arange(0, 11, 2))\nplt.xlabel('Bins')\nplt.ylabel('Frequency')\nplt.title('Histogram of x')\nplt.show()\n"}

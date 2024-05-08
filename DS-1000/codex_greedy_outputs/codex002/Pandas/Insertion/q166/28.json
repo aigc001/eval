@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Group by column 'a' and calculate the mean and standard deviation of column 'b'\ngrouped = df.groupby('a')['b'].agg(['mean', 'std'])\n\n# Reset the index to convert the grouped data back into a DataFrame\ngrouped.reset_index(inplace=True)\n\nprint(grouped)\n"}

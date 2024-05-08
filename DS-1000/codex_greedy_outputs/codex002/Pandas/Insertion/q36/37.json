@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Select rows from the dataframe based on the row_list\ndf_selected = df.iloc[row_list]\n\n# Select columns from the dataframe based on the column_list\ndf_selected = df_selected[column_list]\n\n# Calculate the mean of the selected rows and columns\nmean_values = df_selected.mean()\n\nprint(mean_values)\n"}

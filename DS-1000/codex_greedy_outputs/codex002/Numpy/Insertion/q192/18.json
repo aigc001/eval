@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a matrix of powers of x\nx_matrix = np.vander(x, degree+1)\n\n# Use numpy's polyfit function to find the coefficients\ncoefficients = np.polyfit(x, y, degree)\n\n# Reverse the coefficients to have them in highest to lowest order\ncoefficients = coefficients[::-1]\n\nprint(coefficients)\n"}

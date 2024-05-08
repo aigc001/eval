@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # parse date index using pd.to_datetime\n    df.index = pd.to_datetime(df.index)\n    # swap the two levels\n    df.swaplevel(0, 1, axis=0, inplace=True)\n    return df\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    C = B[:, A_log]\n    return C\n"}

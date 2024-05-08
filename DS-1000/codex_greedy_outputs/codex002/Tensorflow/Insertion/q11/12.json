@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a tensor of zeros with shape (len(lengths), 8)\nmask = tf.zeros((len(lengths), 8), dtype=tf.float32)\n\n# Set the first 'length' elements of each row to 1\nfor i, length in enumerate(lengths):\n    mask[i, :length] = 1.\n\nprint(mask)\n"}

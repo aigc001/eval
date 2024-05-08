@@ -1,0 +1,1 @@
+{"trg_prediction": "\ntf.reduce_sum(A, axis=1)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Apply the permutation\na = a[permutation]\nprint(a)\n"}

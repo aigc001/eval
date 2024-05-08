@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef cost(x):\n    return np.sum(np.sqrt(np.sum((points1-points2[x])**2, axis=1)))\n\nres = scipy.optimize.minimize(cost, range(N), method='powell')\n"}

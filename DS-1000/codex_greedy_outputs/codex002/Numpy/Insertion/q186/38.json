@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a diagonal matrix from the vector i\ni_matrix = np.diag(i)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodel = SelectFromModel(clf, prefit=True)\nX_new = model.transform(X)\n\n# Get the mask of the features selected\nmask = model.get_support()\n\n# Apply the mask to get the feature names\nselected_features = X.columns[mask]\n"}

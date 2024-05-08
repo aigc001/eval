@@ -1,0 +1,1 @@
+{"trg_prediction": "\nfrom scipy.stats import yeojohnson\n\n# Apply the Yeo-Johnson transformation to each value in the array\ntransformed_data = np.array([yeojohnson(val).ppf(0.5) for val in data.flatten()])\n\n# Reshape the transformed data back into its original shape\ntransformed_data = transformed_data.reshape(data.shape)\n"}

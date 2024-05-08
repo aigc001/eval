@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef dN1_dt_time_varying(t, N1):\n    return -100 * N1 + np.sin(t)\n\ntime_points = np.linspace(time_span[0], time_span[1], 1000)\nsol = scipy.integrate.solve_ivp(fun=dN1_dt_time_varying, t_span=time_span, y0=[N0,], t_eval=time_points)\n\nimport matplotlib.pyplot as plt\nplt.plot(sol.t, sol.y[0])\nplt.xlabel('t')\nplt.ylabel('N1')\nplt.show()\n"}

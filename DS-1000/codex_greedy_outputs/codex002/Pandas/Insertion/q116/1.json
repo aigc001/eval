@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Compute the total for each column\ntotal = df.sum(axis=0)\n\n# Divide each value by the total of its column\ndf_percentage = df.div(total)\n\nprint(df_percentage)\n"}

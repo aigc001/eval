@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.query(\"Category not in @filter_list\")\n"}

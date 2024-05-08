@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Melt the dataframe\nmelted_df = pd.melt(df, id_vars=['user'], var_name='others', value_name='value')\n\n# Sort the dataframe by 'user' and 'others'\nmelted_df.sort_values(by=['user', 'others'], inplace=True)\n\n# Reset the index\nmelted_df.reset_index(drop=True, inplace=True)\n\nprint(melted_df)\n"}

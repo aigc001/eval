@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# zero out the second row and the first column\na[1, :] = 0\na[:, 0] = 0\n"}

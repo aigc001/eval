@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmax_val = np.max(a)\nb = np.zeros((a.size, max_val + 1))\nb[np.arange(a.size), a] = 1\n"}

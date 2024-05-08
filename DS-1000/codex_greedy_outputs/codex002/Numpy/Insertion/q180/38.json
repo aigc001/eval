@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the shape of the array\nshape = Z.shape\n\n# Create a tuple for slicing\nslice_tuple = tuple(slice(None) for _ in range(len(shape) - 1)) + (-1,)\n\n# Use the tuple to slice the array\nZ_last_dim = Z[slice_tuple]\n"}

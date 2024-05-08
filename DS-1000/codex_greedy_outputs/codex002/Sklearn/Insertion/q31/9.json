@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Fit the pipeline\npipe.fit(data, target)\n\n# Get the feature selector from the pipeline\nselector = pipe.named_steps['select']\n\n# Get the selected features\nselected_features = selector.get_support(indices=True)\n\n# Create a new DataFrame with only the selected features\nselected_data = data.iloc[:, selected_features]\n"}

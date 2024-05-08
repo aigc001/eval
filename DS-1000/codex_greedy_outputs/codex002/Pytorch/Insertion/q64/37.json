@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a tensor of zeros with the same shape as t\nzeros = torch.zeros_like(t)\n\n# Stack the original tensor and the zeros tensor\nr = torch.stack([zeros, t])\n\n# Add a row of zeros at the end\nr = torch.cat([r, zeros.unsqueeze(0)], dim=0)\n\n# Add a column of zeros at the end\nr = torch.cat([r, zeros.unsqueeze(1)], dim=1)\n"}

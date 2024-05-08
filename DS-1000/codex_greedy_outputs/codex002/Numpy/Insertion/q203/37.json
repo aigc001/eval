@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef check_nan(lst):\n    for arr in lst:\n        if not np.isnan(arr).all():\n            return False\n    return True\n\nprint(check_nan(a))\n"}

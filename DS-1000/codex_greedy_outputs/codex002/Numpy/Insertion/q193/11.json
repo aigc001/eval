@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef subtract_func(row, arr):\n    return row - arr[row.name]\n\ndf_result = df.apply(subtract_func, arr=a, axis=1)\n"}

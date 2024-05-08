@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the list to a DataFrame\nList = pd.DataFrame({'Date': List})\nList['Date'] = pd.to_datetime(List['Date'])\n\n# Merge the two DataFrames\ndf = pd.merge(df, List, on='Date', how='inner')\n\n# Convert the date to the desired format\ndf['Date'] = df['Date'].dt.strftime('%d-%b-%Y %A')\n\nprint(df)\n"}

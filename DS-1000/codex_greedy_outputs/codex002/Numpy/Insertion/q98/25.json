@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the array\nb = a.reshape(h, w)\nprint(b)\n"}

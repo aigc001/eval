@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the series to a DataFrame\ndf = pd.DataFrame(series.values.tolist(), index=series.index)\n\n# Add a column of indices\ndf.index.name = 'name'\ndf.reset_index(inplace=True)\n\nprint(df)\n"}

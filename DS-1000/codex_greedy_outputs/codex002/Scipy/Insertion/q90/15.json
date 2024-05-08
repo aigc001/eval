@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the matrix to binary by checking if each element is nonzero\nbinary_matrix = (a != 0).astype(int)\n"}

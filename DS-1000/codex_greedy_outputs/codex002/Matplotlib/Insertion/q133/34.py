@@ -1,0 +1,7 @@
+plt.fill_between(x, y - error, y + error, alpha=0.3)
+plt.plot(x, y, marker='o')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Plot with error region')
+plt.grid(True)
+plt.show()

@@ -1,0 +1,1 @@
+{"trg_prediction": "\na_solutions = []\nfor x, b in zip(xdata, bdata):\n    a_root = fsolve(eqn, x0=0.5, args=(x, b))\n    a_solutions.append(a_root)\na_solutions = np.array(a_solutions)\n"}

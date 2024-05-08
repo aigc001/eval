@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef rename_columns(df):\n    df.columns = [f'{col}X' for col in df.columns]\n    return df\n\ndf = rename_columns(df)\n"}

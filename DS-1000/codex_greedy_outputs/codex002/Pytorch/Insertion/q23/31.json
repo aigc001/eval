@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert 2D tensor to numpy array\nnp_array = Tensor_2D.numpy()\n\n# Create a diagonal matrix for each row in the numpy array\ndiag_matrix = np.array([np.diag(row) for row in np_array])\n\n# Convert the numpy array back to a torch tensor\ndiag_matrix_tensor = torch.from_numpy(diag_matrix)\n"}

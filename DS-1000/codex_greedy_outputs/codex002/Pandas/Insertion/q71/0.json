@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Filter rows where column 'c' is greater than 0.5\n    df_filtered = df[df.c > 0.5]\n\n    # Select only the columns specified\n    df_filtered = df_filtered[columns]\n\n    # Add a new column 'sum' which is the sum of the selected columns\n    df_filtered['sum'] = df_filtered.sum(axis=1)\n\n    return df_filtered\n"}

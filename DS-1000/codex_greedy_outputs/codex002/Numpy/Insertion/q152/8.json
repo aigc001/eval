@@ -1,0 +1,1 @@
+{"trg_prediction": "\nC = A[np.in1d(A, B)]\n"}

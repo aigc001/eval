@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Flatten the array and get the second largest value\nflattened_a = a.flatten()\nsecond_largest = np.partition(flattened_a, -2)[-2]\n\n# Get the indices of the second largest value\nindices = np.where(a == second_largest)\n\n# Unravel the indices\nunraveled_indices = np.unravel_index(indices[0][0], a.shape)\n\nprint(unraveled_indices)\n"}

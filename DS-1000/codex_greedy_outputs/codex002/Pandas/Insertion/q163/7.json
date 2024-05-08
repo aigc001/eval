@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf.columns = pd.MultiIndex.from_tuples(df.columns, names=['Caps', 'Middle', 'Lower'])\ndf.index = pd.Index([1,2,3])\n"}

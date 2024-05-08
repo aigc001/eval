@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndiff = tf.square(tf.subtract(a, b))\ndist = tf.reduce_sum(diff, axis=1)\nprint(dist)\n"}

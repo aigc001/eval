@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure()\nplt.plot(x, y)\nplt.title(\"Figure 1\")\nplt.show()\n"}

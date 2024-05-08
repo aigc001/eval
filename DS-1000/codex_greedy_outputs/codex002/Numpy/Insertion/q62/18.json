@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the arrays to tuples\nA_tuples = [tuple(row) for row in A]\nB_tuples = [tuple(row) for row in B]\n\n# Find the complement of A in B\ncomplement = [row for row in A_tuples if row not in B_tuples]\n\n# Convert the tuples back to arrays\noutput = np.asarray([list(row) for row in complement])\n\nprint(output)\n"}

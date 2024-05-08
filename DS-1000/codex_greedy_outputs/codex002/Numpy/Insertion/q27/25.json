@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new array with the same shape as the original\nb = np.empty_like(a)\n\n# Assign the columns of the original array to the new array according to the permutation\nfor i, j in enumerate(permutation):\n    b[:, i] = a[:, j]\n\nprint(b)\n"}

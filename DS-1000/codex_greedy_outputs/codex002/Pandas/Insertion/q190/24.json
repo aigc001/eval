@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Define a function to apply to each column\ndef custom_agg(col):\n    if col.name == 'D':\n        return col.sum()\n    elif col.name == 'E':\n        return col.mean()\n\n# Use apply on the result of the pivot_table\npivot_table = pd.pivot_table(df, values=['D','E'], rows=['B'])\nresult = pivot_table.apply(custom_agg)\n"}

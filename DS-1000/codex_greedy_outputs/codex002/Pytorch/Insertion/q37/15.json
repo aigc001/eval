@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert numpy array to torch tensor\nidx_tensor = torch.from_numpy(idx)\n\n# Use the torch tensor to index the original tensor\nresult = t[idx_tensor]\n"}

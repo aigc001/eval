@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape y to be a column vector\ny = y.reshape(-1, 1)\n\n# Reshape X to be a matrix with one column\nX = X.reshape(-1, 1)\n\n# Reshape X_test to be a matrix with one column\nX_test = X_test.reshape(-1, 1)\n\n# Fit the model\nregressor = RandomForestRegressor(n_estimators=150, min_samples_split=1.0, random_state=42)\nrgr = regressor.fit(X, y)\n"}

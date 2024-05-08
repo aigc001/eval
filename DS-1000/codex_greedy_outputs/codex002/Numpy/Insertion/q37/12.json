@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef pad(A, length):\n    size = A.size\n    pad_size = length - size\n    padded_array = np.pad(A, (0, pad_size), 'constant')\n    return padded_array\n\nA = np.array([1,2,3,4,5])\nlength = 8\nprint(pad(A, length))\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Replace the infinite values with NaN\na[np.isinf(a)] = np.nan\n\n# Compute the mean\nmean = np.nanmean(a)\n"}

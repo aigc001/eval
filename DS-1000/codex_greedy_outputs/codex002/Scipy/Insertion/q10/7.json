@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Expected Value\nexpected_value = np.exp(mu + (stddev**2)/2)\nprint(\"Expected Value: \", expected_value)\n\n# Median\nmedian = np.exp(mu)\nprint(\"Median: \", median)\n"}

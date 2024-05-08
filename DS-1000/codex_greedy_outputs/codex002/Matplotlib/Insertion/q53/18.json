@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y)\nplt.ylabel(\"Y\")\nplt.gca().yaxis.set_ticks_position(\"left\")\nplt.gca().yaxis.set_label_position(\"right\")\n"}

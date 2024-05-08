@@ -1,0 +1,1 @@
+{"trg_prediction": "\ncount = CountVectorizer(lowercase = False)\nvocabulary = count.fit_transform([words])\nprint(count.get_feature_names_out())\n"}

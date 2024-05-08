@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Group by 'Sp' and 'Value', and for each group, get the row(s) where 'count' is maximum\nmax_rows = df.loc[df.groupby(['Sp','Value'])['count'].idxmax()]\n\nprint(max_rows)\n"}

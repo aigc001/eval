@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Step 1: Multiply the column by a number\na[:, col] *= multiply_number\n\n# Step 2: Calculate the cumulative sum of the column\ncumulative_sum = np.cumsum(a[:, col])\n\nprint(cumulative_sum)\n"}

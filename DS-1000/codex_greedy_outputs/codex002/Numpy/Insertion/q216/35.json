@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the indices of non-zero elements\nnon_zero_indices = np.nonzero(im)\n# Get the unique values of the indices\nunique_indices = np.unique(non_zero_indices)\n# Use these indices to slice the original array\nresult = im[unique_indices[0].min():unique_indices[0].max()+1,\n            unique_indices[1].min():unique_indices[1].max()+1]\n"}

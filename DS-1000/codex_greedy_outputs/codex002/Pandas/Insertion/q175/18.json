@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Using the isinstance function to check if the value in column A is an integer or a float\ndf = df[df['A'].apply(lambda x: isinstance(x, (int, float)))]\n"}

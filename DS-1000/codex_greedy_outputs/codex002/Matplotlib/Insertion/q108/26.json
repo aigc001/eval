@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.plot(x, y, 'b--')\nplt.grid(True, color='blue', linestyle='-.')\n"}

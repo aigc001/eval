@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# convert degree to radian\nradian = np.radians(degree)\n\n# compute cosine value\ncos_value = np.cos(radian)\n\n# print the result\nprint(cos_value)\n"}

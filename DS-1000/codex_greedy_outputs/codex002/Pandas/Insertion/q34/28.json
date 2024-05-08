@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the column names that contain 'val'\nvalue_columns = [col for col in df.columns if 'val' in col]\n\n# Group by 'group' and take the sum of the value columns\ngrouped_df = df.groupby('group').agg({\"group_color\": \"first\", **{col: \"sum\" for col in value_columns}})\n\nprint(grouped_df)\n"}

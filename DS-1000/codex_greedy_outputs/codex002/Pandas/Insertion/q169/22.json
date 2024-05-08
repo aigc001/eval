@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Drop columns where all values are 0\ndf = df.loc[:, (df != 0).any(axis=0)]\n\n# Drop rows where all values are 0\ndf = df.loc[(df != 0).any(axis=1)]\n\nprint(df)\n"}

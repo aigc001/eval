@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the smallest value in the array\nmin_value = np.min(a)\n\n# Find the indices of the smallest value\nmin_indices = np.unravel_index(np.argmin(a, axis=None), a.shape)\n\nprint(\"Smallest value:\", min_value)\nprint(\"Indices of the smallest value:\", min_indices)\n"}

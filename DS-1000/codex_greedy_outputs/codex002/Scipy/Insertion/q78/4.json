@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef dN_dt(t, N):\n    return -100 * N + np.sin(t)\n\ndef N(t):\n    return N0 + scipy.integrate.quad(dN_dt, 0, t)[0]\n\nt = np.linspace(0, 10, 1000)\nN_values = [N(ti) for ti in t]\n"}

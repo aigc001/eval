@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# concatenate horizontally\nresult = sparse.hstack((sa, sb))\n"}

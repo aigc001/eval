@@ -1,0 +1,1 @@
+{"trg_prediction": "\ntf.reduce_prod(A, axis=1)\n"}

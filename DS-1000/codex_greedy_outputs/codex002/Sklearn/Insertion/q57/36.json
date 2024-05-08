@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    query_matrix = tfidf.transform(queries)\n    cosine_similarities = np.dot(query_matrix, tfidf.components_.T)\n    return cosine_similarities\n"}

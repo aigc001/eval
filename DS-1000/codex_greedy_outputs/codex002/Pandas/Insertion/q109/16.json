@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf1.set_index('Timestamp', inplace=True)\ndf2.set_index('Timestamp', inplace=True)\n\nresult = df1.join(df2, how='left', lsuffix='_df1', rsuffix='_df2')\nresult.reset_index(inplace=True)\n\nresult.columns = ['Timestamp', 'data', 'stuff']\n"}

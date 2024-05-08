@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a list of the column names\ncols = ['keywords_0', 'keywords_1', 'keywords_2', 'keywords_3']\n\n# Use apply and lambda function to concatenate the values\ndf['keywords_all'] = df[cols].apply(lambda row: '-'.join(row.dropna().astype(str)), axis=1)\n\nprint(df)\n"}

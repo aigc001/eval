@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf = pd.DataFrame(s, columns=['Revenue'])\n\n# replace ',' with ''\ndf['Revenue'] = df['Revenue'].str.replace(',','')\n\n# convert to float\ndf['Revenue'] = pd.to_numeric(df['Revenue'], errors='coerce')\n\nprint(df)\n"}

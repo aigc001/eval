@@ -1,0 +1,1 @@
+{"trg_prediction": "\na = np.insert(a, pos, element)\nprint a\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert numpy array to pytorch tensor\nt = torch.from_numpy(a)\n"}

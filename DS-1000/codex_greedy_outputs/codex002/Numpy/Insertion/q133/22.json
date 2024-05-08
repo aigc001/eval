@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Reshape the DataFrame into a 3D NumPy array\narray = df.values.reshape(len(names), len(times), len(df.columns))\n"}

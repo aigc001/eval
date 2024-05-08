@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Convert the softmax output to a numpy array\n    softmax_output = softmax_output.numpy()\n\n    # Find the index of the maximum value in each row\n    max_index = np.argmax(softmax_output, axis=1)\n\n    # Create a new tensor with the class labels\n    class_labels = torch.from_numpy(max_index).unsqueeze(1)\n\n    return class_labels\n"}

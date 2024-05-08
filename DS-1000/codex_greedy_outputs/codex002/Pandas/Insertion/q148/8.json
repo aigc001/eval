@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Group by 'l' and sum 'v'\ngrouped = df.groupby('l')['v'].sum()\n\n# Replace 0's with np.nan where 'v' is np.nan\ngrouped[df['v'].isnull()] = np.nan\n\nprint(grouped)\n"}

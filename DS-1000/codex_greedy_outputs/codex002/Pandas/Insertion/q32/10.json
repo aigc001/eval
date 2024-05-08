@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a list of all columns\ncolumns = df.columns\n\n# Create a dictionary to rename the columns\nrename_dict = {col: 'X' + col for col in columns if not col.endswith('X')}\n\n# Rename the columns\ndf = df.rename(columns=rename_dict)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create an array of zeros with the shape (len(lens), max(lens))\nmask = np.zeros((len(lens), max(lens)))\n\n# For each index and its corresponding length, set the first length elements to 1\nfor i, length in enumerate(lens):\n    mask[i, :length] = 1\n\n# Convert the numpy array to a PyTorch tensor\nmask = torch.from_numpy(mask).long()\n"}

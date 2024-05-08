@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert list of tensors to tensor of tensors\nnew_tensors = torch.stack(list)\n"}

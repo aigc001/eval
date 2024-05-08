@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# reshape b to have the same dimensions as the third dimension of a\nb = b.reshape(b.shape + (1,))\n\n# use numpy fancy indexing to select the elements in a according to b\ndesired = a[np.arange(a.shape[0])[:, np.newaxis, np.newaxis], np.arange(a.shape[1])[np.newaxis, :, np.newaxis], b]\n"}

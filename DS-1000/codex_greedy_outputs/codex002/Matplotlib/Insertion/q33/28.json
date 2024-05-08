@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.figure()\nplt.plot(x, color='red')\nplt.plot(y, color='green')\nplt.plot(z, color='blue')\nplt.show()\n"}

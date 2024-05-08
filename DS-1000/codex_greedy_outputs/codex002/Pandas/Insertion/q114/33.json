@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    error_list = []\n    for index, row in df.iterrows():\n        if not isinstance(row['Field1'], int):\n            error_list.append(row['Field1'])\n    return error_list\n"}

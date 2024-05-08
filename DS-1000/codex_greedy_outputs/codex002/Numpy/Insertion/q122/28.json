@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the indices of the real numbers\nreal_indices = np.where(np.imag(x) == 0)\n\n# Delete the real numbers\nx = np.delete(x, real_indices)\n"}

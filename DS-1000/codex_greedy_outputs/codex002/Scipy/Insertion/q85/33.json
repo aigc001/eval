@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a copy of the sparse matrix V and convert it to a CSR format\nV_csr = V.tocsr()\n\n# Create a new sparse matrix with the same shape as V but filled with x\nx_matrix = sparse.csr_matrix(np.full(V.shape, x))\n\n# Add the two matrices together\nresult = V_csr + x_matrix\n"}

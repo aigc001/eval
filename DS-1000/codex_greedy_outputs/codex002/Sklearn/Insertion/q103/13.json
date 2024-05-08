@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Split the data into features and target\nX = dataframe.iloc[:, :-1].values\ny = dataframe.iloc[:, -1].values\n# Reshape X to be 2D\nX = np.reshape(X, (X.shape[0], -1))\n# Fit the model\nlogReg = LogisticRegression()\nlogReg.fit(X, y)\n"}

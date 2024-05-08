@@ -1,0 +1,5 @@
+plt.plot(x, y)
+plt.title(r'$\phi$', weight='bold')
+plt.xlabel('x', weight='bold')
+plt.ylabel('y', weight='bold')
+plt.show()

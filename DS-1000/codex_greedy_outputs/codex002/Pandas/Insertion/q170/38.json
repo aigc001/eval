@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Drop the rows where all elements are 0\ndf = df[df.sum(axis=1) != 0]\n\n# Drop the columns where all elements are 0\ndf = df.loc[:, df.sum() != 0]\n\nprint(df)\n"}

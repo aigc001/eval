@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column 'group' which will be used for grouping\ndf['group'] = df.index // 3\n\n# Group by 'group' and take the mean of 'col1'\nresult = df.groupby('group')['col1'].mean().reset_index(drop=True)\n"}

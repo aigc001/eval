@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Map the values in the dictionary to the 'Date' column where the 'Member' column matches the key in the dictionary\ndf['Date'] = df['Member'].map(dict)\n\n# Fill NaN values with a default date\ndf['Date'].fillna('17/8/1926', inplace=True)\n\n# Convert the date format to 'DD-MMM-YYYY'\ndf['Date'] = pd.to_datetime(df['Date']).dt.strftime('%d-%b-%Y')\n"}

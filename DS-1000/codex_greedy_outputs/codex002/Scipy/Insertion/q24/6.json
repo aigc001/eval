@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef cost(x):\n    return np.sum(np.abs(points1 - points2[x]))\n\ndef constraint(x):\n    return np.bincount(x) - 1\n\nx0 = np.zeros(N, dtype=int)\nres = scipy.optimize.minimize(cost, x0, constraints={'type': 'eq', 'fun': constraint}, method='SLSQP')\nassignment = res.x\n"}

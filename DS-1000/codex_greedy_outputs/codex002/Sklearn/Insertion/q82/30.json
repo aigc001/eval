@@ -1,0 +1,1 @@
+{"trg_prediction": "\nmodel = LinearSVC(penalty='l1', dual=False)\nmodel.fit(X, y)\n"}

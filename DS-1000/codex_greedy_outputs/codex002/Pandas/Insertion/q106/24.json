@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef split_name(name):\n    if ' ' in name:\n        first, last = name.split(' ', 1)\n        return first, last\n    else:\n        return name, None\n\ndf['1_name'], df['2_name'] = zip(*df['name'].apply(split_name))\n"}

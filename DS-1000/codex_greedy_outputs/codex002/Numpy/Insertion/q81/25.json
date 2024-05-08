@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    X, Y = np.meshgrid(x, y)\n    Z = np.cos(X)**4 + np.sin(Y)**2\n    return Z\n"}

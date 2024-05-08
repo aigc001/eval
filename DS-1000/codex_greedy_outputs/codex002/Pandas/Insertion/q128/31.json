@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the number of rows to be sampled\nn = int(len(df) * 0.2)\n\n# Sample the rows and set the ProductId to zero\nsampled_rows = df.sample(n, random_state=0)\nsampled_rows['ProductId'] = 0\n\n# Keep the indexes of the altered rows\naltered_indexes = sampled_rows.index\n\n# Update the original DataFrame\ndf.loc[altered_indexes, 'ProductId'] = 0\n"}

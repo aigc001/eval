@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the relative extrema\nextrema = signal.argrelmin(arr, order=n)\n\n# Get the indices of the extrema in the original order\nindices = np.argsort(extrema[0])\n\nprint(extrema[0][indices])\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the date strings to datetime objects\ndf.index = df.index.set_levels(pd.to_datetime(df.index.levels[1]), level='date')\n"}

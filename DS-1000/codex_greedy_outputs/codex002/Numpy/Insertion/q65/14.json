@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# argsort along the first axis\nsort_indices = np.argsort(a, axis=0)\n\n# use the indices to rearrange the elements in b\nc = np.take_along_axis(b, sort_indices, axis=0)\n"}

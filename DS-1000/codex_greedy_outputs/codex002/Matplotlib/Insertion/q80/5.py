@@ -1,0 +1,5 @@
+ax.plot(x, y)
+ax.set_xticks(x)
+ax.set_yticks(y)
+ax.set_xticklabels(x+1)
+ax.set_yticklabels(y+1)

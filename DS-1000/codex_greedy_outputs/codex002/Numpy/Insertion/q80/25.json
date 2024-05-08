@@ -1,0 +1,1 @@
+{"trg_prediction": "\nX, Y = np.meshgrid(x, y)\nZ = np.cos(X)**4 + np.sin(Y)**2\n\n# Use Simpson's rule\nintegral = np.sum(Z * np.diff(x)[0] * np.diff(y)[0])\n"}

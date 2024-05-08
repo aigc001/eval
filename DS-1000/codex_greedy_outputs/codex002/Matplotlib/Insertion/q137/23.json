@@ -1,0 +1,1 @@
+{"trg_prediction": "fig, axs = plt.subplots(4, 4, figsize=(5,5), sharex=True, sharey=True)\n\nfor ax in axs.flatten():\n    ax.plot(x, y)\n    ax.tick_params(axis='both', which='major', labelsize=8)\n\nplt.tight_layout()\nplt.show()\n"}

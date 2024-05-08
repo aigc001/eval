@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef array_equal_nan(a, b):\n    return np.allclose(a, b, equal_nan=True)\n\nprint(any(array_equal_nan(c, contour) for contour in CNTS))\n\ndef remove_contour(CNTS, c):\n    return [contour for contour in CNTS if not array_equal_nan(c, contour)]\n\nCNTS = remove_contour(CNTS, c)\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# First, we need to identify the columns that are equal to 0\ndf['category'] = df.apply(lambda row: [col for col in df.columns if row[col] == 0], axis=1)\n\n# Then, we need to join the lists in 'category' into a single string\ndf['category'] = df['category'].apply(lambda x: ''.join(x))\n"}

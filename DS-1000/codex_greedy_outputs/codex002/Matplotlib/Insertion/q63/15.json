@@ -1,0 +1,1 @@
+{"trg_prediction": "plt.imshow(rand_mat, cmap='hot', interpolation='nearest')\nplt.xticks(range(len(xlabels)), xlabels, rotation=90)\nplt.yticks(range(len(ylabels)), ylabels[::-1])\nplt.show()\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\nB = A.reshape(-1, ncol)\n"}

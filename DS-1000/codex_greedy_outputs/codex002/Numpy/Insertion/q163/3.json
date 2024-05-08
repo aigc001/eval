@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Calculate the L\u221e norm of each row\nnorms = LA.norm(X, axis=1, ord=np.inf)\n\n# Divide each row by its L\u221e norm\nX_normalized = X / norms[:, np.newaxis]\n\nprint(X_normalized)\n"}

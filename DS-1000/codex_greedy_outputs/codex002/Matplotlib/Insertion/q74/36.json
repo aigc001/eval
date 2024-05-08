@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# calculate the slope and y-intercept of the line passing through (a, b) and (c, d)\nslope = (d - b) / (c - a)\ny_intercept = b - slope * a\n\nx = np.linspace(0, 5, 100)\ny = slope * x + y_intercept\n\nplt.plot(x, y, color='red')\n\nplt.xlim(0, 5)\nplt.ylim(0, 5)\n\nplt.scatter([a, c], [b, d], color='blue')\n\nplt.show()\n\n"}

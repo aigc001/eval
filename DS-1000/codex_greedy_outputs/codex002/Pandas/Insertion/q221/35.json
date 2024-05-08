@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef parse_str(s):\n    if '_' in s:\n        return s.split('_')[-1]\n    else:\n        return s\n\ndf['SOURCE_NAME'] = df['SOURCE_NAME'].apply(parse_str)\n"}

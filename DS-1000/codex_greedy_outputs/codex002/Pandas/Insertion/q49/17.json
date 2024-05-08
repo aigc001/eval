@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf_filtered = df[(df.value < section_left) | (df.value > section_right)]\naverage = df_filtered.value.mean()\ndf_filtered = df_filtered.mean(axis=0)\ndf_filtered.index = ['X']\ndf = df[(df.value >= section_left) & (df.value <= section_right)].append(df_filtered)\n"}

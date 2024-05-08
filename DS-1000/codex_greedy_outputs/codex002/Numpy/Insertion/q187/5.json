@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a mask of the non-diagonal elements\nmask = np.ones_like(a)\nnp.fill_diagonal(mask, 0)\n\n# Apply the mask\na *= mask\n"}

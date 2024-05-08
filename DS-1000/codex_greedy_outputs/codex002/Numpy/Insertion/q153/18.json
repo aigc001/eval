@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a boolean array where True values correspond to elements in A that are in B\nboolean_array = np.isin(A, B)\n\n# Use the boolean array to filter out the elements in A\nC = A[boolean_array]\n\nprint(C)\n"}

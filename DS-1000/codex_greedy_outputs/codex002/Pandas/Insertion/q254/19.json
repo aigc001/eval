@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Use the explode function to split the lists into separate rows\ndf = df.explode('col1')\n\n# Use the unique function to get a list of unique values\nunique_values = df['col1'].unique().tolist()\n"}

@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the column names that do not contain 'group'\nvalue_cols = [col for col in df.columns if 'group' not in col]\n\n# Group by 'group' and take the mean of all other columns\ngrouped_df = df.groupby('group')[value_cols].mean()\n\nprint(grouped_df)\n"}

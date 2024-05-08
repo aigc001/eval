@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the shape of the array\nshape = a.shape\n\n# Create a tuple of slices\nslices = tuple(slice(-1, None) if i == 0 else slice(None) for i in range(len(shape)))\n\n# Use the slices to get the last element along the first dimension\nlast_elements = a[slices]\n"}

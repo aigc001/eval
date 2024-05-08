@@ -1,0 +1,1 @@
+{"trg_prediction": "\nf = intp.interp2d(x_new, y_new, a)\na_interp = f(x_new, y_new)\n"}

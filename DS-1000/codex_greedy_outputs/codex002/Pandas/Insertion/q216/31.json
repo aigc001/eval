@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Mode\nmode = df.index.mode()[0]\nprint(\"Mode: \", mode)\n\n# Median\nmedian = df.index.median()\nprint(\"Median: \", median)\n"}

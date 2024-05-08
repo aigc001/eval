@@ -1,0 +1,1 @@
+{"trg_prediction": "\nlinear_index = np.ravel_multi_index(index, dims, order='C')\nprint(linear_index)\n"}

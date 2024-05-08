@@ -1,0 +1,1 @@
+{"trg_prediction": "\nconditions = [df['a'].str.contains(target)]\ndf['b'] = np.select(conditions, choices, default='default')\n"}

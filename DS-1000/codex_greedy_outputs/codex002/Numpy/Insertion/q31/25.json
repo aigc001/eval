@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Find the indices of the minimum values\nindices = np.where(a == a.min())\n# Transform the indices into the required format\nresult = np.array(list(zip(indices[0], indices[1])))\nprint(result)\n"}

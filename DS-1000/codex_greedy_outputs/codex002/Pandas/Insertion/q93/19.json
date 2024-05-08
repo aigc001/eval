@@ -1,0 +1,1 @@
+{"trg_prediction": "\n    # Convert the date string to datetime\n    df.index = pd.to_datetime(df.index)\n\n    # Convert the DataFrame to a numpy array\n    arr = df.values\n\n    # Add the converted date index to the numpy array\n    arr = np.c_[df.index.values, arr]\n\n    return arr\n"}

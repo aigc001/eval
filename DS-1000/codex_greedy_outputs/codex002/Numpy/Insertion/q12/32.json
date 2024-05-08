@@ -1,0 +1,1 @@
+{"trg_prediction": "\nB = A[:ncol*int(np.ceil(len(A)/float(ncol)))]\nB = B.reshape(-1,ncol)\n"}

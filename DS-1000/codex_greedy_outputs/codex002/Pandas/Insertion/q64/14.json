@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a unique ID for each unique combination of 'name' and 'a'\ndf['ID'] = df.groupby(['name', 'a']).ngroup() + 1\n\n# Drop the 'name' and 'a' columns\ndf.drop(['name', 'a'], axis=1, inplace=True)\n\nprint(df)\n"}

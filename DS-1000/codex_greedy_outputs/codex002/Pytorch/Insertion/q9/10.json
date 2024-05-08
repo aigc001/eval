@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert the logical index to a list of integers\nA_log = torch.nonzero(A_log).view(-1)\n\n# Use the list of integers to slice the tensor\nC = B[:, A_log]\n"}

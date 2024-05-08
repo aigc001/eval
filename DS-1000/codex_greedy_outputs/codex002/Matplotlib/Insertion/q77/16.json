@@ -1,0 +1,1 @@
+{"trg_prediction": "fig, axs = plt.subplots(2, 1, figsize=(10, 10))\n\naxs[0].plot(x, y)\naxs[0].set_title('Y over X')\n\naxs[1].plot(a, z)\naxs[1].set_title('Z over A')\n\nfig.suptitle('Y and Z')\nplt.show()\n"}

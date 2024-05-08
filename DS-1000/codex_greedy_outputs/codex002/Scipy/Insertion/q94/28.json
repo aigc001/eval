@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndistances = scipy.spatial.distance.cdist(centroids, data)\nresult = np.argsort(distances, axis=1)[:, k]\n"}

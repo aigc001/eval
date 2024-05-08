@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert lists to numpy arrays\nx = np.array(x)\ny = np.array(y)\neval = np.array(eval)\n\n# Use griddata for interpolation\nresult = scipy.interpolate.griddata(x, y, eval, method='linear')\n\nprint(result)\n"}

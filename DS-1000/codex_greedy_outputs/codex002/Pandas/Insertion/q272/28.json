@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Using apply function and lambda function to round the values\ndf['dogs'] = df['dogs'].apply(lambda x: round(x, 2) if pd.notnull(x) else x)\ndf['cats'] = df['cats'].apply(lambda x: round(x, 2) if pd.notnull(x) else x)\n"}

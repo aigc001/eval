@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the last column name\nlast_column = df.columns[-1]\n\n# Rename the last column\ndf.rename(columns={last_column: 'Test'}, inplace=True)\n\nprint(df.columns)\n"}

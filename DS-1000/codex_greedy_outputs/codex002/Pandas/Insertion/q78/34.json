@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new column 'group' which increments every 4 rows\ndf['group'] = df.index // 4\n\n# Group by this new column and sum the values in 'col1'\ngrouped_df = df.groupby('group').sum()\n\n# Drop the 'group' column\ngrouped_df.drop(columns='group', inplace=True)\n\nprint(grouped_df)\n"}

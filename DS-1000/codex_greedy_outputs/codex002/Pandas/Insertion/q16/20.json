@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a copy of the dataframe to avoid modifying the original one\ndf_copy = df.copy()\n\n# Multiply the scores of the specified products by 10\ndf_copy.loc[df_copy['product'].isin(products), 'score'] *= 10\n\nprint(df_copy)\n"}

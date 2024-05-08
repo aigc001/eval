@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndef smooth_clamp(x, x_min, x_max):\n    if x < x_min:\n        return x_min + (x - x_min)**2 * (x_min + 2*(x_max - x_min) - x)\n    elif x > x_max:\n        return x_max - (x - x_max)**2 * (x_max - 2*(x_max - x_min) - x)\n    else:\n        return x\n\nsmooth_clamp(x, x_min, x_max)\n"}

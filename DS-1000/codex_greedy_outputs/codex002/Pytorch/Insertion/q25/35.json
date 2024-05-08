@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Convert to numpy\na_np = a.detach().numpy()\nb_np = b.detach().numpy()\n\n# Use np.vstack to stack vertically\nab_np = np.vstack((a_np, b_np))\n\n# Convert back to tensor\nab = torch.from_numpy(ab_np)\n"}

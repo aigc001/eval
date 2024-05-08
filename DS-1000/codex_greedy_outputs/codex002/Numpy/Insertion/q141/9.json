@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a masked array where values less than 0 are masked\nmasked_data = np.ma.masked_where(DataArray < 0, DataArray)\n\n# Calculate the percentile\nprob = np.percentile(masked_data, percentile)\n\nprint(prob)\n"}

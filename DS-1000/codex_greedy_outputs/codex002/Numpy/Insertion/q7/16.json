@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Get the unique values in `a` and their corresponding indices\nunique_values, inverse_indices = np.unique(a, return_inverse=True)\n\n# Create a 2D one-hot array\nb = np.zeros((len(a), len(unique_values)), dtype=int)\nb[np.arange(len(a)), inverse_indices] = 1\n"}

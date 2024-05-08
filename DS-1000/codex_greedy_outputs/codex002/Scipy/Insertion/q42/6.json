@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndata = [np.array(x1), np.array(x2), np.array(x3), np.array(x4)]\nresult = ss.anderson_ksamp(data)\n"}

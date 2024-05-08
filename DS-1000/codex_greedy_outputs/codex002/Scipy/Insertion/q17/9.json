@@ -1,0 +1,1 @@
+{"trg_prediction": "\nuniform_times = np.random.uniform(0, T, len(times))\nks_result = stats.ks_2samp(times, uniform_times)\nprint(ks_result)\n"}

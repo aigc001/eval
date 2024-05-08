@@ -1,0 +1,1 @@
+{"trg_prediction": "\n# Create a new array of the desired shape, filled with zeros\nresult = np.zeros(shape)\n\n# Copy the original array into the new array\nresult[:a.shape[0], :a.shape[1]] = a\n\n# Print the result\nprint(result)\n"}

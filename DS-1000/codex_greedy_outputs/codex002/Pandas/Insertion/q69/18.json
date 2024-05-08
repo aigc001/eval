@@ -1,0 +1,1 @@
+{"trg_prediction": "\ndf_filtered = df[df['c'] > 0.45][columns]\ntraining_set = df_filtered.values\n"}
